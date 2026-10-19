@@ -25,7 +25,16 @@
   "zip_members": null,
   "time_in_name": "44.67",
   "sheet_seconds": "44.67",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.dusk_whomp.44_67.m64",
+  "rebased": true,
+  "rebased_sha256": "1f8dcbefcac49835d7b60a9bcfa71aa40b939b7e880a4d8e48f935f2fa990dc5",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 1474)",
+  "rebase_sync": "plain: in sync for 1454 rows",
+  "rebased_inputs": 1498,
+  "rebased_time": "44.67"
  },
  {
   "row": 3,
@@ -53,7 +62,10 @@
   "zip_members": null,
   "time_in_name": "44.67",
   "sheet_seconds": "44.67",
-  "identical_to": "1-playful-palace/pp.switch_way.st dream-realm/dr.course1.st"
+  "identical_to": "1-playful-palace/pp.switch_way.st dream-realm/dr.course1.st",
+  "original_path": "archive/1-playful-palace/pp.dusk_whomp.st",
+  "rebased": true,
+  "rebased_sha256": "4f7fb0dc642a456478ffa01606baf186271e0dbcd5072ab29028cc678b44ea7d"
  },
  {
   "row": 4,
@@ -81,7 +93,16 @@
   "zip_members": null,
   "time_in_name": "10.70",
   "sheet_seconds": "10.70",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.lonely_shroom.10_70.m64",
+  "rebased": true,
+  "rebased_sha256": "d59b3d279231f4f863f31ef7968a028f3fc272bf1340e9491aa01074a8ef6bb8",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 479",
+  "rebase_sync": "plain: in sync for 433 rows",
+  "rebased_inputs": 479,
+  "rebased_time": "10.70"
  },
  {
   "row": 4,
@@ -109,7 +130,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "10.70",
-  "identical_to": "1-playful-palace/pp.deep_palace.st 1-playful-palace/pp.fire_chamber.st"
+  "identical_to": "1-playful-palace/pp.deep_palace.st 1-playful-palace/pp.fire_chamber.st",
+  "original_path": "archive/1-playful-palace/pp.lonely_shroom.st",
+  "rebased": true,
+  "rebased_sha256": "a09a3f1d72363308556a2178a50303e7a2f36813b5873b1773e06e73cc339228"
  },
  {
   "row": 4,
@@ -125,7 +149,7 @@
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1056972168367439975/TotheLonelyShroomHJ.zip",
   "original_name": "TotheLonelyShroomHJ.zip",
   "result": "archived",
-  "archive_path": "1-playful-palace/pp.lonely_shroom.hyperjump_14_73.zip",
+  "archive_path": "archive/1-playful-palace/pp.lonely_shroom.hyperjump_14_73.zip",
   "downloaded_name": "TotheLonelyShroomHJ.zip",
   "size": 1767549,
   "sha256": "75a92cf5932c190df8a716b3c0c6e06fc2a99cc610cb34e3964dba91e8d9d3ce",
@@ -146,7 +170,9 @@
   ],
   "time_in_name": null,
   "sheet_seconds": "10.70",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.lonely_shroom.hyperjump_14_73.zip",
+  "rebased": false
  },
  {
   "row": 5,
@@ -187,7 +213,16 @@
   "zip_members": null,
   "time_in_name": "11.73",
   "sheet_seconds": "11.73",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.deep_palace.11_73.m64",
+  "rebased": true,
+  "rebased_sha256": "25729280809abdda8b751035d7e634816b73f8e11a5d7e9130d8466e8ce20b2d",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 510",
+  "rebase_sync": "plain: in sync for 430 rows",
+  "rebased_inputs": 510,
+  "rebased_time": "11.73"
  },
  {
   "row": 6,
@@ -215,7 +250,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "11.73",
-  "identical_to": "1-playful-palace/pp.lonely_shroom.st 1-playful-palace/pp.fire_chamber.st"
+  "identical_to": "1-playful-palace/pp.lonely_shroom.st 1-playful-palace/pp.fire_chamber.st",
+  "original_path": "archive/1-playful-palace/pp.deep_palace.st",
+  "rebased": true,
+  "rebased_sha256": "a09a3f1d72363308556a2178a50303e7a2f36813b5873b1773e06e73cc339228"
  },
  {
   "row": 7,
@@ -243,7 +281,16 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "37.47",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.switch_way.37_47.m64",
+  "rebased": true,
+  "rebased_sha256": "c1091d021d1725ff407e38bf81baa24f9db66dee4315c8c34123a44a80d07f06",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 1282",
+  "rebase_sync": "plain: in sync for 1186 rows",
+  "rebased_inputs": 1282,
+  "rebased_time": "37.47"
  },
  {
   "row": 7,
@@ -271,7 +318,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "37.47",
-  "identical_to": "1-playful-palace/pp.dusk_whomp.st dream-realm/dr.course1.st"
+  "identical_to": "1-playful-palace/pp.dusk_whomp.st dream-realm/dr.course1.st",
+  "original_path": "archive/1-playful-palace/pp.switch_way.st",
+  "rebased": true,
+  "rebased_sha256": "4f7fb0dc642a456478ffa01606baf186271e0dbcd5072ab29028cc678b44ea7d"
  },
  {
   "row": 8,
@@ -299,7 +349,16 @@
   "zip_members": null,
   "time_in_name": "8.70",
   "sheet_seconds": "8.70",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.fire_chamber.8_70.m64",
+  "rebased": true,
+  "rebased_sha256": "6bd13af2d6d3b3c993d0cfbcf5d6c33fc45a2f558836b332d1ab64be67ea738d",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 395)",
+  "rebase_sync": "plain: in sync for 375 rows",
+  "rebased_inputs": 419,
+  "rebased_time": "8.70"
  },
  {
   "row": 8,
@@ -327,7 +386,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "8.70",
-  "identical_to": "1-playful-palace/pp.lonely_shroom.st 1-playful-palace/pp.deep_palace.st"
+  "identical_to": "1-playful-palace/pp.lonely_shroom.st 1-playful-palace/pp.deep_palace.st",
+  "original_path": "archive/1-playful-palace/pp.fire_chamber.st",
+  "rebased": true,
+  "rebased_sha256": "a09a3f1d72363308556a2178a50303e7a2f36813b5873b1773e06e73cc339228"
  },
  {
   "row": 9,
@@ -355,7 +417,16 @@
   "zip_members": null,
   "time_in_name": "169.73",
   "sheet_seconds": "169.73",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.dusk_whomp_100c.169_73.m64",
+  "rebased": true,
+  "rebased_sha256": "6bdde29d7c1cc32605224164e6a28303354968f6ccd69fd8412de556b333dc24",
+  "rebase_fix": "rng",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 5250",
+  "rebase_sync": "rng: in sync for 5199 rows",
+  "rebased_inputs": 5250,
+  "rebased_time": "169.73"
  },
  {
   "row": 9,
@@ -383,7 +454,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "169.73",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/1-playful-palace/pp.dusk_whomp_100c.st",
+  "rebased": true,
+  "rebased_sha256": "69859dc7ba46f3de75cb03f41e124c21fd6d1e8e5b2776705d91d2f902142d35"
  },
  {
   "row": 11,
@@ -411,7 +485,16 @@
   "zip_members": null,
   "time_in_name": "63.77",
   "sheet_seconds": "63.77",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.dusk_bobomb.63_77.m64",
+  "rebased": true,
+  "rebased_sha256": "26b1704fba00cedcec4e2e18bc9e1dee8b007bc197e53784ffaead4b43f5e61d",
+  "rebase_fix": "rng",
+  "rebase_start": "act select (old row 23, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 2050)",
+  "rebase_sync": "rng: in sync for 2027 rows",
+  "rebased_inputs": 2071,
+  "rebased_time": "63.77"
  },
  {
   "row": 11,
@@ -439,7 +522,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "63.77",
-  "identical_to": "2-bob-omb-temple/bt.deep_temple.st 2-bob-omb-temple/bt.fly_abyss.st"
+  "identical_to": "2-bob-omb-temple/bt.deep_temple.st 2-bob-omb-temple/bt.fly_abyss.st",
+  "original_path": "archive/2-bob-omb-temple/bt.dusk_bobomb.st",
+  "rebased": true,
+  "rebased_sha256": "3173ee9ebd6fe8bca904ded65844a20820235cb804a59919feccd67078e64757"
  },
  {
   "row": 12,
@@ -467,7 +553,16 @@
   "zip_members": null,
   "time_in_name": "10.20",
   "sheet_seconds": "10.20",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.deep_temple.10_20.m64",
+  "rebased": true,
+  "rebased_sha256": "d7b3d7acdce4ba0f2e49e33e1fa304f22d84fee0986da8cd5df01a749ee409af",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 23, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 443)",
+  "rebase_sync": "plain: in sync for 420 rows",
+  "rebased_inputs": 464,
+  "rebased_time": "10.20"
  },
  {
   "row": 12,
@@ -495,7 +590,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "10.20",
-  "identical_to": "2-bob-omb-temple/bt.dusk_bobomb.st 2-bob-omb-temple/bt.fly_abyss.st"
+  "identical_to": "2-bob-omb-temple/bt.dusk_bobomb.st 2-bob-omb-temple/bt.fly_abyss.st",
+  "original_path": "archive/2-bob-omb-temple/bt.deep_temple.st",
+  "rebased": true,
+  "rebased_sha256": "ea1fd400279abb621856821740541f0107bf15e6768da2f152160f4b46592a60"
  },
  {
   "row": 13,
@@ -536,7 +634,16 @@
   "zip_members": null,
   "time_in_name": "17.93",
   "sheet_seconds": "17.93",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.high_room.17_93.m64",
+  "rebased": true,
+  "rebased_sha256": "3391386c26156b4d7a6e5103236fb77982c3672b6c2bf0ad73499d61e72b6e69",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 57, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 709)",
+  "rebase_sync": "plain: in sync for 652 rows",
+  "rebased_inputs": 696,
+  "rebased_time": "17.93"
  },
  {
   "row": 14,
@@ -564,7 +671,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "17.93",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.high_room.st",
+  "rebased": true,
+  "rebased_sha256": "9dffb7ac69c4a8cddfc56f0d2e39155b285b15c783188b554af42a3edbbeddb3"
  },
  {
   "row": 15,
@@ -592,7 +702,16 @@
   "zip_members": null,
   "time_in_name": "9.70",
   "sheet_seconds": "9.70",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.cannon_vanishcap.9_70.m64",
+  "rebased": true,
+  "rebased_sha256": "d8158c49b75b565bc97b4f0b4a9e02b38d00e21ddd7642e6316bd135ab49d14e",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 29, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 434)",
+  "rebase_sync": "plain: in sync for 405 rows",
+  "rebased_inputs": 449,
+  "rebased_time": "9.70"
  },
  {
   "row": 15,
@@ -620,7 +739,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "9.70",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.cannon_vanishcap.st",
+  "rebased": true,
+  "rebased_sha256": "539a5690a7de6b0c670a59adebc0ec8e20da2f65732e388c50eeaccecd57078a"
  },
  {
   "row": 16,
@@ -648,7 +770,16 @@
   "zip_members": null,
   "time_in_name": "25.10",
   "sheet_seconds": "14.70",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.fly_abyss.25_10.m64",
+  "rebased": true,
+  "rebased_sha256": "5fad15fceeec33b3b7cf1dff2b74dcf7e2b2c324b80e521413baf6915b4f2606",
+  "rebase_fix": "rng",
+  "rebase_start": "act select (old row 23, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 890)",
+  "rebase_sync": "rng: in sync for 867 rows",
+  "rebased_inputs": 911,
+  "rebased_time": "25.10"
  },
  {
   "row": 16,
@@ -676,7 +807,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "14.70",
-  "identical_to": "2-bob-omb-temple/bt.dusk_bobomb.st 2-bob-omb-temple/bt.deep_temple.st"
+  "identical_to": "2-bob-omb-temple/bt.dusk_bobomb.st 2-bob-omb-temple/bt.deep_temple.st",
+  "original_path": "archive/2-bob-omb-temple/bt.fly_abyss.st",
+  "rebased": true,
+  "rebased_sha256": "3173ee9ebd6fe8bca904ded65844a20820235cb804a59919feccd67078e64757"
  },
  {
   "row": 17,
@@ -704,7 +838,16 @@
   "zip_members": null,
   "time_in_name": "129.47",
   "sheet_seconds": "129.47",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.high_room_100c.129_47.m64",
+  "rebased": true,
+  "rebased_sha256": "fb79a8a6267efc39ab11e2fab850a77e99282484006ceb46bb89433d49fa4259",
+  "rebase_fix": "rng",
+  "rebase_start": "act select (old row 23, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 4021)",
+  "rebase_sync": "rng: in sync for 3998 rows",
+  "rebased_inputs": 4042,
+  "rebased_time": "129.47"
  },
  {
   "row": 17,
@@ -732,7 +875,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "129.47",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.high_room_100c.st",
+  "rebased": true,
+  "rebased_sha256": "fc7c82c685286895684451dbedd64b2a6d73dbdb7b22e22b2ad41aa626e380cb"
  },
  {
   "row": 19,
@@ -760,7 +906,16 @@
   "zip_members": null,
   "time_in_name": "14.73",
   "sheet_seconds": "14.73",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.waterfall.14_73.m64",
+  "rebased": true,
+  "rebased_sha256": "f48e47d89bb3edddb12cac3e0cb084cc41ec2702b5516f146dbcc5b34cb4b234",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 577)",
+  "rebase_sync": "plain: in sync for 556 rows",
+  "rebased_inputs": 600,
+  "rebased_time": "14.73"
  },
  {
   "row": 19,
@@ -788,7 +943,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "14.73",
-  "identical_to": "3-gelato-beach/gb.tower.st 3-gelato-beach/gb.shell_ride.st 3-gelato-beach/gb.double_cap.st dream-realm/dr.course3.st"
+  "identical_to": "3-gelato-beach/gb.tower.st 3-gelato-beach/gb.shell_ride.st 3-gelato-beach/gb.double_cap.st dream-realm/dr.course3.st",
+  "original_path": "archive/3-gelato-beach/gb.waterfall.st",
+  "rebased": true,
+  "rebased_sha256": "ad068d0a48ea75814a5d1ba14cd7e4785fc67c7c122829bd2fedb1bcf56859aa"
  },
  {
   "row": 20,
@@ -816,7 +974,16 @@
   "zip_members": null,
   "time_in_name": "10.80",
   "sheet_seconds": "10.80",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.tower.10_80.m64",
+  "rebased": true,
+  "rebased_sha256": "dd51328e37023042351023df85c05ca516f67a1a58acfd67a50f4ec5e29a2484",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 459)",
+  "rebase_sync": "plain: in sync for 438 rows",
+  "rebased_inputs": 482,
+  "rebased_time": "10.80"
  },
  {
   "row": 20,
@@ -844,7 +1011,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "10.80",
-  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.shell_ride.st 3-gelato-beach/gb.double_cap.st dream-realm/dr.course3.st"
+  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.shell_ride.st 3-gelato-beach/gb.double_cap.st dream-realm/dr.course3.st",
+  "original_path": "archive/3-gelato-beach/gb.tower.st",
+  "rebased": true,
+  "rebased_sha256": "ad068d0a48ea75814a5d1ba14cd7e4785fc67c7c122829bd2fedb1bcf56859aa"
  },
  {
   "row": 21,
@@ -872,7 +1042,16 @@
   "zip_members": null,
   "time_in_name": "31.60",
   "sheet_seconds": "31.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.wiggler.31_60.m64",
+  "rebased": true,
+  "rebased_sha256": "87456b02d8284e55a59a3117913e83bfe3d6a9d5b2fe1fa0a214102536732532",
+  "rebase_fix": "rngpre",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 1106",
+  "rebase_sync": "rngpre: in sync for 1061 rows",
+  "rebased_inputs": 1106,
+  "rebased_time": "31.60"
  },
  {
   "row": 21,
@@ -900,7 +1079,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "31.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.wiggler.st",
+  "rebased": true,
+  "rebased_sha256": "3a58a360773c9d1958e70b5a26d363c946097498a2b3cf33fd68f115cdfa155f"
  },
  {
   "row": 22,
@@ -941,7 +1123,16 @@
   "zip_members": null,
   "time_in_name": "23.17",
   "sheet_seconds": "23.17",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.shell_ride.23_17.m64",
+  "rebased": true,
+  "rebased_sha256": "140ad594ff74b937b838281a6c699a360d8255b5ffbc157ea8b74d8b1bd26468",
+  "rebase_fix": "rngpre",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 830)",
+  "rebase_sync": "rngpre: in sync for 809 rows",
+  "rebased_inputs": 853,
+  "rebased_time": "23.17"
  },
  {
   "row": 23,
@@ -969,7 +1160,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "23.17",
-  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.tower.st 3-gelato-beach/gb.double_cap.st dream-realm/dr.course3.st"
+  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.tower.st 3-gelato-beach/gb.double_cap.st dream-realm/dr.course3.st",
+  "original_path": "archive/3-gelato-beach/gb.shell_ride.st",
+  "rebased": true,
+  "rebased_sha256": "64544117dada9027a0b503320fb05937ce1accb6e88ae75b38707b318c5b6171"
  },
  {
   "row": 24,
@@ -997,7 +1191,16 @@
   "zip_members": null,
   "time_in_name": "22.07",
   "sheet_seconds": "22.07",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.double_cap.22_07.m64",
+  "rebased": true,
+  "rebased_sha256": "adc9b69cce54b7118419406649b75ac334f2b216837f7913a71a6bcb6212e97d",
+  "rebase_fix": "rngpre",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 797)",
+  "rebase_sync": "rngpre: in sync for 776 rows",
+  "rebased_inputs": 820,
+  "rebased_time": "22.07"
  },
  {
   "row": 24,
@@ -1025,7 +1228,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "22.07",
-  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.tower.st 3-gelato-beach/gb.shell_ride.st dream-realm/dr.course3.st"
+  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.tower.st 3-gelato-beach/gb.shell_ride.st dream-realm/dr.course3.st",
+  "original_path": "archive/3-gelato-beach/gb.double_cap.st",
+  "rebased": true,
+  "rebased_sha256": "64544117dada9027a0b503320fb05937ce1accb6e88ae75b38707b318c5b6171"
  },
  {
   "row": 25,
@@ -1053,7 +1259,16 @@
   "zip_members": null,
   "time_in_name": "115.80",
   "sheet_seconds": "115.80",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.100c.115_80.m64",
+  "rebased": true,
+  "rebased_sha256": "5e9b8e2575e8b6df0e9170d2348a4199bfd8a8dc13e3846fc50b4046c7af127c",
+  "rebase_fix": "rngpre_gt_auc",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 3609)",
+  "rebase_sync": "rngpre_gt_auc: in sync for 3588 rows",
+  "rebased_inputs": 3632,
+  "rebased_time": "115.80"
  },
  {
   "row": 25,
@@ -1081,7 +1296,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "115.80",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/3-gelato-beach/gb.100c.st",
+  "rebased": true,
+  "rebased_sha256": "767a4b14e431aa662a48c14402fe05036d1f7de546913790bce1422c35369d06"
  },
  {
   "row": 25,
@@ -1124,7 +1342,16 @@
   "zip_members": null,
   "time_in_name": "31.60",
   "sheet_seconds": "31.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.checkpoint.31_60.m64",
+  "rebased": true,
+  "rebased_sha256": "65f7339f2c9801f73575c0bc1eb9c373f772d544215b64401bfa697f9f331b38",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 57, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 1106",
+  "rebase_sync": "plain: in sync for 1061 rows",
+  "rebased_inputs": 1106,
+  "rebased_time": "31.60"
  },
  {
   "row": 27,
@@ -1152,7 +1379,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "31.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.checkpoint.st",
+  "rebased": true,
+  "rebased_sha256": "7f92df276aeec507efd6630c9d646f3063a8b8d4c24095b2095689877d2934b9"
  },
  {
   "row": 28,
@@ -1193,7 +1423,16 @@
   "zip_members": null,
   "time_in_name": "17.03",
   "sheet_seconds": "17.03",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.ice_sanctuary.17_03.m64",
+  "rebased": true,
+  "rebased_sha256": "1b5d9d746697ead381d6c793874efa1f8c1d0255030706ac1afb2b8c4ac597a5",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 645)",
+  "rebase_sync": "plain: in sync for 625 rows",
+  "rebased_inputs": 669,
+  "rebased_time": "17.03"
  },
  {
   "row": 29,
@@ -1221,7 +1460,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "17.03",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.ice_sanctuary.st",
+  "rebased": true,
+  "rebased_sha256": "e1815839b764400549ad0c5b75f5e47db960f896a69bd10479be85b84aa3de33"
  },
  {
   "row": 30,
@@ -1249,7 +1491,16 @@
   "zip_members": null,
   "time_in_name": "10.87",
   "sheet_seconds": "10.87",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.explore_sanctuary.10_87.m64",
+  "rebased": true,
+  "rebased_sha256": "4b77b140d2e40821df73d6c59ae3b363f481f404a55deb37891b7fe6e3435290",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 19, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 459)",
+  "rebase_sync": "plain: in sync for 440 rows",
+  "rebased_inputs": 484,
+  "rebased_time": "10.87"
  },
  {
   "row": 30,
@@ -1277,7 +1528,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "10.87",
-  "identical_to": "4-the-white-abyss/wa.ice_guardian.st 4-the-white-abyss/wa.ice_cave.st dream-realm/dr.course4.st"
+  "identical_to": "4-the-white-abyss/wa.ice_guardian.st 4-the-white-abyss/wa.ice_cave.st dream-realm/dr.course4.st",
+  "original_path": "archive/4-the-white-abyss/wa.explore_sanctuary.st",
+  "rebased": true,
+  "rebased_sha256": "84eded78158ea4e1f7b59be41e8ccd052541794f80beee6c11d53d9a9cfa1c4c"
  },
  {
   "row": 31,
@@ -1305,7 +1559,16 @@
   "zip_members": null,
   "time_in_name": "15.87",
   "sheet_seconds": "15.87",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.ice_guardian.15_87.m64",
+  "rebased": true,
+  "rebased_sha256": "c018518474ce0cc1e1d10e7af2746f62e475a920a8398d42759d31a46768cf17",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 610)",
+  "rebase_sync": "plain: in sync for 590 rows",
+  "rebased_inputs": 634,
+  "rebased_time": "15.87"
  },
  {
   "row": 31,
@@ -1333,7 +1596,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "15.87",
-  "identical_to": "4-the-white-abyss/wa.explore_sanctuary.st 4-the-white-abyss/wa.ice_cave.st dream-realm/dr.course4.st"
+  "identical_to": "4-the-white-abyss/wa.explore_sanctuary.st 4-the-white-abyss/wa.ice_cave.st dream-realm/dr.course4.st",
+  "original_path": "archive/4-the-white-abyss/wa.ice_guardian.st",
+  "rebased": true,
+  "rebased_sha256": "84eded78158ea4e1f7b59be41e8ccd052541794f80beee6c11d53d9a9cfa1c4c"
  },
  {
   "row": 32,
@@ -1361,7 +1627,16 @@
   "zip_members": null,
   "time_in_name": "8.87",
   "sheet_seconds": "8.87",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.ice_cave.8_87.m64",
+  "rebased": true,
+  "rebased_sha256": "e1f36de32cb2cd6ab18b437f199e1680809c79f04dc1482bb515ee21a1c2083b",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 19, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 424",
+  "rebase_sync": "plain: in sync for 379 rows",
+  "rebased_inputs": 424,
+  "rebased_time": "8.87"
  },
  {
   "row": 32,
@@ -1389,7 +1664,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "8.87",
-  "identical_to": "4-the-white-abyss/wa.explore_sanctuary.st 4-the-white-abyss/wa.ice_guardian.st dream-realm/dr.course4.st"
+  "identical_to": "4-the-white-abyss/wa.explore_sanctuary.st 4-the-white-abyss/wa.ice_guardian.st dream-realm/dr.course4.st",
+  "original_path": "archive/4-the-white-abyss/wa.ice_cave.st",
+  "rebased": true,
+  "rebased_sha256": "84eded78158ea4e1f7b59be41e8ccd052541794f80beee6c11d53d9a9cfa1c4c"
  },
  {
   "row": 33,
@@ -1417,7 +1695,16 @@
   "zip_members": null,
   "time_in_name": "74.43",
   "sheet_seconds": "74.43",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.100c_reds.74_43.m64",
+  "rebased": true,
+  "rebased_sha256": "c484c4f43a83743724c5106821f6772c37f1b959853bdc632168f66f2976fbfc",
+  "rebase_fix": "rng_gt",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 2367)",
+  "rebase_sync": "rng_gt: in sync for 2347 rows",
+  "rebased_inputs": 2391,
+  "rebased_time": "74.43"
  },
  {
   "row": 33,
@@ -1445,7 +1732,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "74.43",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/4-the-white-abyss/wa.100c_reds.st",
+  "rebased": true,
+  "rebased_sha256": "a1f06a850de1e6881d100386d6ca1dd1b53f06c14ea7ef2f174c4d811bb1dd61"
  },
  {
   "row": 35,
@@ -1473,7 +1763,16 @@
   "zip_members": null,
   "time_in_name": "14.47",
   "sheet_seconds": "14.47",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.course1.14_47.m64",
+  "rebased": true,
+  "rebased_sha256": "5f2ce1894bb8fa312ba291803b06a62cd6faf517119f7049cc2f789763e384c1",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 20, new row 44)",
+  "rebase_end": "padded: the next level starts at new row 592",
+  "rebase_sync": "plain: in sync for 547 rows",
+  "rebased_inputs": 592,
+  "rebased_time": "14.63"
  },
  {
   "row": 35,
@@ -1501,7 +1800,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "14.47",
-  "identical_to": "1-playful-palace/pp.dusk_whomp.st 1-playful-palace/pp.switch_way.st"
+  "identical_to": "1-playful-palace/pp.dusk_whomp.st 1-playful-palace/pp.switch_way.st",
+  "original_path": "archive/dream-realm/dr.course1.st",
+  "rebased": true,
+  "rebased_sha256": "4f7fb0dc642a456478ffa01606baf186271e0dbcd5072ab29028cc678b44ea7d"
  },
  {
   "row": 36,
@@ -1529,7 +1831,16 @@
   "zip_members": null,
   "time_in_name": "25.63",
   "sheet_seconds": "25.63",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.course2.25_63.m64",
+  "rebased": true,
+  "rebased_sha256": "0d0fa9152b5a85be3f1d0027c64b9828b53937c728c0394ac4e3a5a622ee76dd",
+  "rebase_fix": "rng",
+  "rebase_start": "act select (old row 23, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 901)",
+  "rebase_sync": "rng: in sync for 878 rows",
+  "rebased_inputs": 922,
+  "rebased_time": "25.63"
  },
  {
   "row": 36,
@@ -1557,7 +1868,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "25.63",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.course2.st",
+  "rebased": true,
+  "rebased_sha256": "cd37e32f45689a4c9fcb1b998f098ee0ab4a00dca386abe300ad8d5b7fe9d188"
  },
  {
   "row": 37,
@@ -1585,7 +1899,16 @@
   "zip_members": null,
   "time_in_name": "23.50",
   "sheet_seconds": "23.50",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.course3.23_50.m64",
+  "rebased": true,
+  "rebased_sha256": "f723f501d8348a2f394268ef354062a612f666c6124e7d7322bdff02bc6d758e",
+  "rebase_fix": "rngpre",
+  "rebase_start": "act select (old row 21, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 840)",
+  "rebase_sync": "rngpre: in sync for 819 rows",
+  "rebased_inputs": 863,
+  "rebased_time": "23.67"
  },
  {
   "row": 37,
@@ -1613,7 +1936,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "23.50",
-  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.tower.st 3-gelato-beach/gb.shell_ride.st 3-gelato-beach/gb.double_cap.st"
+  "identical_to": "3-gelato-beach/gb.waterfall.st 3-gelato-beach/gb.tower.st 3-gelato-beach/gb.shell_ride.st 3-gelato-beach/gb.double_cap.st",
+  "original_path": "archive/dream-realm/dr.course3.st",
+  "rebased": true,
+  "rebased_sha256": "64544117dada9027a0b503320fb05937ce1accb6e88ae75b38707b318c5b6171"
  },
  {
   "row": 38,
@@ -1641,7 +1967,16 @@
   "zip_members": null,
   "time_in_name": "12.53",
   "sheet_seconds": "12.53",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.course4.12_53.m64",
+  "rebased": true,
+  "rebased_sha256": "0352fa824f925f66b5b788098282a8e9450fb7f5ea4fb0547ef8ee841577f45a",
+  "rebase_fix": "plain",
+  "rebase_start": "act select (old row 19, new row 44)",
+  "rebase_end": "cut before the next level's first frame (old row 504)",
+  "rebase_sync": "plain: in sync for 485 rows",
+  "rebased_inputs": 529,
+  "rebased_time": "12.53"
  },
  {
   "row": 38,
@@ -1669,7 +2004,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "12.53",
-  "identical_to": "4-the-white-abyss/wa.explore_sanctuary.st 4-the-white-abyss/wa.ice_guardian.st 4-the-white-abyss/wa.ice_cave.st"
+  "identical_to": "4-the-white-abyss/wa.explore_sanctuary.st 4-the-white-abyss/wa.ice_guardian.st 4-the-white-abyss/wa.ice_cave.st",
+  "original_path": "archive/dream-realm/dr.course4.st",
+  "rebased": true,
+  "rebased_sha256": "84eded78158ea4e1f7b59be41e8ccd052541794f80beee6c11d53d9a9cfa1c4c"
  },
  {
   "row": 39,
@@ -1697,7 +2035,16 @@
   "zip_members": null,
   "time_in_name": "19.60",
   "sheet_seconds": "19.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.toad.19_60.m64",
+  "rebased": true,
+  "rebased_sha256": "7bc93e589aae708ce9e7c074fe8b5ffcb59550f5990af37c0f91c472a6ba7715",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 18, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 919)",
+  "rebase_sync": "plain: in sync for 901 rows",
+  "rebased_inputs": 902,
+  "rebased_time": "19.60"
  },
  {
   "row": 39,
@@ -1725,7 +2072,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "19.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/dream-realm/dr.toad.st",
+  "rebased": true,
+  "rebased_sha256": "6eec285faa458a638f69141381f65874caca8120f2ab62332062525fe78e80ae"
  },
  {
   "row": 41,
@@ -1753,7 +2103,16 @@
   "zip_members": null,
   "time_in_name": "69.97",
   "sheet_seconds": "69.97",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/wc.windy_towers.69_97.m64",
+  "rebased": true,
+  "rebased_sha256": "1d9ff37f0d340c6158ee95da1c44060a4942e27e52b85f6d1fd0769b1713d8ef",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 36, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 2248)",
+  "rebase_sync": "plain: in sync for 2212 rows",
+  "rebased_inputs": 2213,
+  "rebased_time": "69.97"
  },
  {
   "row": 41,
@@ -1781,7 +2140,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "69.97",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/wc.windy_towers.st",
+  "rebased": true,
+  "rebased_sha256": "0d6b0813624f69968c89b5905c07945c05d7c07917bbe9a934a2640dd68751be"
  },
  {
   "row": 42,
@@ -1809,7 +2171,16 @@
   "zip_members": null,
   "time_in_name": "50.80",
   "sheet_seconds": "50.80",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/vc.ghostly_puzzle.50_80.m64",
+  "rebased": true,
+  "rebased_sha256": "7150ef3f9a1ba0ac3e9207fe134ba1c204e08c52ee09adad02e1942227626b96",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 25, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 1662)",
+  "rebase_sync": "plain: in sync for 1637 rows",
+  "rebased_inputs": 1638,
+  "rebased_time": "50.80"
  },
  {
   "row": 42,
@@ -1837,7 +2208,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "50.80",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/vc.ghostly_puzzle.st",
+  "rebased": true,
+  "rebased_sha256": "8c4d7f6cb1ac3ecb4f3fed057f3bff44636d6387d9038e961ef188c421728297"
  },
  {
   "row": 43,
@@ -1865,7 +2239,16 @@
   "zip_members": null,
   "time_in_name": "18.13",
   "sheet_seconds": "18.13",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/mc.sewers_left.18_13.m64",
+  "rebased": true,
+  "rebased_sha256": "23ddde21188ccd7ef3f351c32a8ca30c609db74361b3095af067db421aa7e90d",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 7, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 664)",
+  "rebase_sync": "plain: in sync for 657 rows",
+  "rebased_inputs": 658,
+  "rebased_time": "18.13"
  },
  {
   "row": 43,
@@ -1893,7 +2276,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "18.13",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/mc.sewers_left.st",
+  "rebased": true,
+  "rebased_sha256": "dfe2cd3d865efc1e3fef4e6706d73eded0ba19a045aee0024c1d67f37d41924b"
  },
  {
   "row": 44,
@@ -1921,7 +2307,16 @@
   "zip_members": null,
   "time_in_name": "18.13",
   "sheet_seconds": "18.13",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/mc.sewers_right.18_13.m64",
+  "rebased": true,
+  "rebased_sha256": "3c40604295b54c675970c03de8219c826c29574ab154003749651835eed7959e",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 7, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 664)",
+  "rebase_sync": "plain: in sync for 657 rows",
+  "rebased_inputs": 658,
+  "rebased_time": "18.13"
  },
  {
   "row": 44,
@@ -1949,7 +2344,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "18.13",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/cap-levels/mc.sewers_right.st",
+  "rebased": true,
+  "rebased_sha256": "df256b02658de87b1977aac4795d07b5d34aa3c8c90b02919a03ea5519182473"
  },
  {
   "row": 46,
@@ -1977,7 +2375,16 @@
   "zip_members": null,
   "time_in_name": "26.07",
   "sheet_seconds": "26.07",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/mos.reds.26_07.m64",
+  "rebased": true,
+  "rebased_sha256": "59ef8da2d5c818aa377f253db83533f1efe9abd5e0fc1756f9724904b16c4098",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 3, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 1024)",
+  "rebase_sync": "plain: in sync for 1021 rows",
+  "rebased_inputs": 1022,
+  "rebased_time": "26.07"
  },
  {
   "row": 46,
@@ -2005,7 +2412,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "26.07",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/mos.reds.st",
+  "rebased": true,
+  "rebased_sha256": "934947eb5f31d95c1d108f2a9b0d259770cfee5bbd5b0ec3dd803a3864a44de0"
  },
  {
   "row": 47,
@@ -2033,7 +2443,16 @@
   "zip_members": null,
   "time_in_name": "80.20",
   "sheet_seconds": "80.20",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/cwt.reds.80_20.m64",
+  "rebased": true,
+  "rebased_sha256": "cd6bdd9f571912ff066f6789ba6ebc91523323f63d4e48d45047676506221a58",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 22, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 2533)",
+  "rebase_sync": "plain: in sync for 2511 rows",
+  "rebased_inputs": 2512,
+  "rebased_time": "80.20"
  },
  {
   "row": 47,
@@ -2061,7 +2480,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "80.20",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/cwt.reds.st",
+  "rebased": true,
+  "rebased_sha256": "e592bf70b6d171b337bd2f3942e33f9d286adc325e374ca25fe06261cbc49064"
  },
  {
   "row": 48,
@@ -2089,7 +2511,16 @@
   "zip_members": null,
   "time_in_name": "88.00",
   "sheet_seconds": "88.00",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/gl.goombas_lair.88_00.m64",
+  "rebased": true,
+  "rebased_sha256": "de5f73308b36d9c169531f79b270a7f6260282d872850896a3ad1551a986b52f",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 16, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 2769)",
+  "rebase_sync": "plain: in sync for 2753 rows",
+  "rebased_inputs": 2754,
+  "rebased_time": "88.00"
  },
  {
   "row": 48,
@@ -2117,7 +2548,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "88.00",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/gl.goombas_lair.st",
+  "rebased": true,
+  "rebased_sha256": "1d86cc1da17b384c13e7141af9ac642abdca6e191d1e11d0583c826df851f0b8"
  },
  {
   "row": 49,
@@ -2145,7 +2579,16 @@
   "zip_members": null,
   "time_in_name": "104.20",
   "sheet_seconds": "104.20",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/rr.rainbow_road.104_20.m64",
+  "rebased": true,
+  "rebased_sha256": "df091e6b4ca1672f54d5e9a827243df7edf6095d80367cb0c3de9319d4adc7c6",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 157, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 3396)",
+  "rebase_sync": "plain: in sync for 3239 rows",
+  "rebased_inputs": 3240,
+  "rebased_time": "104.20"
  },
  {
   "row": 49,
@@ -2173,7 +2616,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "104.20",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/rr.rainbow_road.st",
+  "rebased": true,
+  "rebased_sha256": "67cf4d58d84f37bceb47c22902b3847f6c415d99c104f7b06f5d495e4e08f87a"
  },
  {
   "row": 49,
@@ -2189,7 +2635,7 @@
   "original_url": "https://cdn.discordapp.com/attachments/929005491634442263/1529915213686505492/ld_rr.10420.higher_flyguy.m64",
   "original_name": "ld_rr.10420.higher_flyguy.m64",
   "result": "archived",
-  "archive_path": "miscellaneous/rr.rainbow_road.improvement_higher_flyguy.m64",
+  "archive_path": "archive/miscellaneous/rr.rainbow_road.improvement_higher_flyguy.m64",
   "downloaded_name": "ld_rr.10420.higher_flyguy.m64",
   "size": 6704,
   "sha256": "9bbe9cc9da0d3ba925959067a37fc6b7a9dcbd848d1c9c72fb743a8713315466",
@@ -2201,7 +2647,9 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "104.20",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/rr.rainbow_road.improvement_higher_flyguy.m64",
+  "rebased": false
  },
  {
   "row": 50,
@@ -2229,7 +2677,16 @@
   "zip_members": null,
   "time_in_name": "40.10",
   "sheet_seconds": "40.10",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/ttc.tick_tock_chaos.40_10.m64",
+  "rebased": true,
+  "rebased_sha256": "ce39597bfa8f6e67331c02bf6842f0860225fe2b4886de54f74b4533a5853820",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 10, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 1326)",
+  "rebase_sync": "plain: in sync for 1316 rows",
+  "rebased_inputs": 1317,
+  "rebased_time": "40.10"
  },
  {
   "row": 50,
@@ -2257,7 +2714,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "40.10",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/miscellaneous/ttc.tick_tock_chaos.st",
+  "rebased": true,
+  "rebased_sha256": "0992d6f32812f80f8fb0b75b04f042f2a729952a8bddede4d71a369d80dfd588"
  },
  {
   "row": 52,
@@ -2285,7 +2745,16 @@
   "zip_members": null,
   "time_in_name": "13.37",
   "sheet_seconds": "13.37",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/bowser-levels/b1.ghost_house.13_37.m64",
+  "rebased": true,
+  "rebased_sha256": "52e3d3f9f9a045ec838b7c0decb3466c48302709cb033ea0f223da15948d83af",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 12, new row 1)",
+  "rebase_end": "the level never ended after the star dance: left uncut",
+  "rebase_sync": "plain: in sync for 514 rows",
+  "rebased_inputs": 515,
+  "rebased_time": "13.37"
  },
  {
   "row": 52,
@@ -2313,7 +2782,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "13.37",
-  "identical_to": "bowser-levels/b1.ghost_house_battle.st"
+  "identical_to": "bowser-levels/b1.ghost_house_battle.st",
+  "original_path": "archive/bowser-levels/b1.ghost_house.st",
+  "rebased": true,
+  "rebased_sha256": "f88039941426f03ced5f2a4d9a66ac5f2788050a579269aec3c067cfa01c1bb8"
  },
  {
   "row": 53,
@@ -2341,7 +2813,8 @@
   "zip_members": null,
   "time_in_name": "29.07",
   "sheet_seconds": "29.07",
-  "identical_to": ""
+  "identical_to": "",
+  "rebased": false
  },
  {
   "row": 53,
@@ -2369,7 +2842,8 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "29.07",
-  "identical_to": "bowser-levels/b2.mountain_temple_battle.st"
+  "identical_to": "bowser-levels/b2.mountain_temple_battle.st",
+  "rebased": false
  },
  {
   "row": 54,
@@ -2397,7 +2871,16 @@
   "zip_members": null,
   "time_in_name": "124.00",
   "sheet_seconds": "109.77",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/bowser-levels/b3.nightmare_realm.124_00.m64",
+  "rebased": true,
+  "rebased_sha256": "48496a84ec0b73b1f519ff00f1d21cb20f03976986a26f1f1b6afc3c672da7a3",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 18, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 3898)",
+  "rebase_sync": "plain: in sync for 3880 rows",
+  "rebased_inputs": 3881,
+  "rebased_time": "124.00"
  },
  {
   "row": 54,
@@ -2425,7 +2908,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "109.77",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/bowser-levels/b3.nightmare_realm.st",
+  "rebased": true,
+  "rebased_sha256": "f4829395b70b21efc83edb5d1c3fbd1205785367aecd783816145c1f079270b6"
  },
  {
   "row": 54,
@@ -2441,7 +2927,7 @@
   "original_url": "https://cdn.discordapp.com/attachments/929005491634442263/1529915256128802816/smtld_b3.10977_-_Copy.m64",
   "original_name": "smtld_b3.10977_-_Copy.m64",
   "result": "archived",
-  "archive_path": "bowser-levels/b3.nightmare_realm.improvement_109_77.m64",
+  "archive_path": "archive/bowser-levels/b3.nightmare_realm.improvement_109_77.m64",
   "downloaded_name": "smtld_b3.10977 - Copy.m64",
   "size": 3600,
   "sha256": "26fef0b6e2d12d71b9943d4b46d5621a1c64c7b74bd12594ae2ca4cfbb0cc8db",
@@ -2453,7 +2939,9 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "109.77",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/bowser-levels/b3.nightmare_realm.improvement_109_77.m64",
+  "rebased": false
  },
  {
   "row": 55,
@@ -2481,7 +2969,16 @@
   "zip_members": null,
   "time_in_name": "22.20",
   "sheet_seconds": "27.93",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/bowser-levels/b1.ghost_house_battle.22_20.m64",
+  "rebased": true,
+  "rebased_sha256": "59c1d6d3b2300ef66eaac5fc05139b91e4cd8a355a439ad87fe198c0210bc3bb",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 1467, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 2418)",
+  "rebase_sync": "plain: in sync for 951 rows",
+  "rebased_inputs": 952,
+  "rebased_time": "27.93"
  },
  {
   "row": 55,
@@ -2509,7 +3006,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "27.93",
-  "identical_to": "bowser-levels/b1.ghost_house.st"
+  "identical_to": "bowser-levels/b1.ghost_house.st",
+  "original_path": "archive/bowser-levels/b1.ghost_house_battle.st",
+  "rebased": true,
+  "rebased_sha256": "ec728c9384d497de1d964ed2b739b549adac4a5591d626c6bee88fddfeb100ee"
  },
  {
   "row": 56,
@@ -2537,7 +3037,16 @@
   "zip_members": null,
   "time_in_name": "30.10",
   "sheet_seconds": "32.60",
-  "identical_to": ""
+  "identical_to": "",
+  "original_path": "archive/bowser-levels/b2.mountain_temple_battle.30_10.m64",
+  "rebased": true,
+  "rebased_sha256": "a9ad3bc69b5f05a6d1aa6b31e145444175db2e6cbc96b09b9dcdcf9e8e8d021c",
+  "rebase_fix": "plain",
+  "rebase_start": "level first frame (old row 1467, new row 1)",
+  "rebase_end": "cut before the next level's first frame (old row 2558)",
+  "rebase_sync": "plain: in sync for 1091 rows",
+  "rebased_inputs": 1092,
+  "rebased_time": "32.60"
  },
  {
   "row": 56,
@@ -2565,7 +3074,10 @@
   "zip_members": null,
   "time_in_name": null,
   "sheet_seconds": "32.60",
-  "identical_to": "bowser-levels/b2.mountain_temple.st"
+  "identical_to": "bowser-levels/b2.mountain_temple.st",
+  "original_path": "archive/bowser-levels/b2.mountain_temple_battle.st",
+  "rebased": true,
+  "rebased_sha256": "2bcb23fc1770269947c1a7a433866103b6b6465f823fdddb8980b100885e0ec4"
  },
  {
   "row": 57,
