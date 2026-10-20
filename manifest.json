@@ -2683,8 +2683,8 @@
   "link_id": "L77",
   "original_url": "https://cdn.discordapp.com/attachments/929005491634442263/1529915213686505492/ld_rr.10420.higher_flyguy.m64",
   "original_name": "ld_rr.10420.higher_flyguy.m64",
-  "result": "archived",
-  "archive_path": "archive/miscellaneous/rr.rainbow_road.improvement_higher_flyguy.m64",
+  "result": "draft in wip/ (2026-10-20); plays from archive/miscellaneous/rr.rainbow_road.st",
+  "archive_path": "wip/rr.rainbow_road.improvement_higher_flyguy.m64",
   "downloaded_name": "ld_rr.10420.higher_flyguy.m64",
   "size": 6704,
   "sha256": "9bbe9cc9da0d3ba925959067a37fc6b7a9dcbd848d1c9c72fb743a8713315466",
@@ -2697,7 +2697,7 @@
   "time_in_name": null,
   "sheet_seconds": "104.20",
   "identical_to": "",
-  "original_path": "archive/miscellaneous/rr.rainbow_road.improvement_higher_flyguy.m64",
+  "original_path": "wip/rr.rainbow_road.improvement_higher_flyguy.m64",
   "rebased": false
  },
  {
@@ -3007,8 +3007,8 @@
   "link_id": "L86",
   "original_url": "https://cdn.discordapp.com/attachments/929005491634442263/1529915256128802816/smtld_b3.10977_-_Copy.m64",
   "original_name": "smtld_b3.10977_-_Copy.m64",
-  "result": "archived",
-  "archive_path": "archive/bowser-levels/b3.nightmare_realm.improvement_109_77.m64",
+  "result": "draft in wip/ (2026-10-20); plays from archive/bowser-levels/b3.nightmare_realm.st",
+  "archive_path": "wip/b3.nightmare_realm.improvement_109_77.m64",
   "downloaded_name": "smtld_b3.10977 - Copy.m64",
   "size": 3600,
   "sha256": "26fef0b6e2d12d71b9943d4b46d5621a1c64c7b74bd12594ae2ca4cfbb0cc8db",
@@ -3021,7 +3021,7 @@
   "time_in_name": null,
   "sheet_seconds": "109.77",
   "identical_to": "",
-  "original_path": "archive/bowser-levels/b3.nightmare_realm.improvement_109_77.m64",
+  "original_path": "wip/b3.nightmare_realm.improvement_109_77.m64",
   "rebased": false
  },
  {
