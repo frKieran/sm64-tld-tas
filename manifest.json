@@ -757,8 +757,8 @@
   "link_id": "L22",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1057964615658643496/smtld_2-6.2510.m64",
   "original_name": "smtld_2-6.2510.m64",
-  "result": "archived",
-  "archive_path": "2-bob-omb-temple/bt.fly_abyss.25_10.m64",
+  "result": "archived (superseded by the 14.70)",
+  "archive_path": "archive/2-bob-omb-temple/bt.fly_abyss.25_10.m64",
   "downloaded_name": "smtld_2-6.2510.m64",
   "size": 33544,
   "sha256": "efa32a8700989e1cbc655b481e632f21d004afb62a716f9b558e04326c9bdc14",
@@ -772,14 +772,40 @@
   "sheet_seconds": "14.70",
   "identical_to": "",
   "original_path": "archive/2-bob-omb-temple/bt.fly_abyss.25_10.m64",
+  "rebased": false
+ },
+ {
+  "row": 16,
+  "section": "2. Bob-omb Temple",
+  "star": "Fly Through the Abyss",
+  "status": "needs optimisation",
+  "time": "14.70",
+  "authors": "FeijoadaMolhada, ChouxZi3",
+  "sheet_rerecords": "732",
+  "comments": "grindel rng",
+  "column": "m64",
+  "link_id": "C1",
+  "original_url": "",
+  "original_name": "smtld_2-6.1470.m64",
+  "result": "archived (sent by ChouxZi3 to the user, 2026-10-20; not on the sheet)",
+  "archive_path": "2-bob-omb-temple/bt.fly_abyss.14_70.m64",
+  "downloaded_name": "smtld_2-6.1470.m64",
+  "size": 9680,
+  "sha256": "32f89a96b568b0bd150b5fa9891ba6f02f7eac945472b128341f5dd3ff51862c",
+  "m64_rerecords": 732,
+  "m64_samples": 578,
+  "m64_trailing_words": 7240,
+  "st_compression": null,
+  "st_unpacked_size": null,
+  "zip_members": null,
+  "time_in_name": "14.70",
+  "sheet_seconds": "14.70",
+  "identical_to": "",
+  "original_path": "archive/2-bob-omb-temple/bt.fly_abyss.14_70.m64",
   "rebased": true,
-  "rebased_sha256": "5fad15fceeec33b3b7cf1dff2b74dcf7e2b2c324b80e521413baf6915b4f2606",
+  "rebased_sha256": "0efc31977b3e081b6003415df5657670e76f4a003dea8102138f73c4a37cbf1f",
   "rebase_fix": "rng",
-  "rebase_start": "act select (old row 23, new row 44)",
-  "rebase_end": "cut before the next level's first frame (old row 890)",
-  "rebase_sync": "rng: in sync for 867 rows",
-  "rebased_inputs": 911,
-  "rebased_time": "25.10"
+  "rebased_time": "14.70"
  },
  {
   "row": 16,
@@ -810,7 +836,7 @@
   "identical_to": "2-bob-omb-temple/bt.dusk_bobomb.st 2-bob-omb-temple/bt.deep_temple.st",
   "original_path": "archive/2-bob-omb-temple/bt.fly_abyss.st",
   "rebased": true,
-  "rebased_sha256": "3173ee9ebd6fe8bca904ded65844a20820235cb804a59919feccd67078e64757"
+  "rebased_sha256": "820ea9a8bcfd307fca17eaba853fb86c3828c952d64e0d3e0911367e3cae9ecd"
  },
  {
   "row": 17,
@@ -2814,7 +2840,11 @@
   "time_in_name": "29.07",
   "sheet_seconds": "29.07",
   "identical_to": "",
-  "rebased": false
+  "rebased": true,
+  "original_path": "archive/bowser-levels/b2.mountain_temple.29_07.m64",
+  "rebased_sha256": "75759ca42e4c9ccff89173e97175b7a4d01013bed3cde1237ac21d9a249f59ff",
+  "rebase_fix": "plain + wing cap unlocked in the save (SAVE_FLAG_HAVE_WING_CAP)",
+  "rebased_time": "29.07"
  },
  {
   "row": 53,
@@ -2843,7 +2873,9 @@
   "time_in_name": null,
   "sheet_seconds": "29.07",
   "identical_to": "bowser-levels/b2.mountain_temple_battle.st",
-  "rebased": false
+  "rebased": true,
+  "original_path": "archive/bowser-levels/b2.mountain_temple.st",
+  "rebased_sha256": "b8eab96c9a4fb719c5d25d61484f5380e35c5034940b9e268efb4480b2089478"
  },
  {
   "row": 54,
