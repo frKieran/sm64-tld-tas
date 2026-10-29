@@ -2914,13 +2914,13 @@
   "link_id": "C8",
   "original_url": "",
   "original_name": "dr.toad.19_60.m64",
-  "result": "added by the user (Kieran), 2026-10-23: the same 19.60 star (ChouxZi3's part is unchanged to input 745) with the exit after it 9 input frames sooner: a sideways BLJ along the first platform's rim from a constructed braking long jump (facing 49125), -357 on row 832, the grounded jump kick across to the second platform (landing row 844), the pipe's wall stop on 853, the jump and kick into the pipe: ACT_DISAPPEARED on row 870 (the 19.60's 879), the next level on 893 (902); plays from the standard dr.toad.st; Mupen-verified (the sim's inputs to the wall stop replay exactly; the pipe entry found in Mupen); projects/lostdreams/tld_drtoad in frKieran/sm64",
+  "result": "added by the user (Kieran), 2026-10-23: the same 19.60 star (ChouxZi3's part is unchanged to input 745) with the exit after it 9 input frames sooner: a sideways BLJ along the first platform's rim from a constructed braking long jump (facing 49125), -357 on row 832, the grounded jump kick across to the second platform (landing row 844), the pipe's wall stop on 853, the jump and kick into the pipe: ACT_DISAPPEARED on row 870 (the 19.60's 879), the next level on 893 (902); plays from the standard dr.toad.st; Mupen-verified (the sim's inputs to the wall stop replay exactly; the pipe entry found in Mupen); projects/lostdreams/tld_drtoad in frKieran/sm64; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 16 inputs; tld_restate.py): the movie has the original's input 16 in front, every row matched",
   "archive_path": "dream-realm/dr.toad.19_60.m64",
   "downloaded_name": "dr.toad.19_60.m64",
-  "size": 4596,
-  "sha256": "4c53d03998a32c654f5b6c41a6de75aee05b188062ec90405b071e39d6755f47",
+  "size": 4600,
+  "sha256": "ff1523af5eaa44c58224a84ad769d917f738a239deae2976506cf1bcd77cb346",
   "m64_rerecords": 1780,
-  "m64_samples": 893,
+  "m64_samples": 894,
   "m64_trailing_words": 0,
   "st_compression": null,
   "st_unpacked_size": null,
@@ -2951,7 +2951,7 @@
   "link_id": "L60",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060826518114283530/smtld_toad.savestate",
   "original_name": "smtld_toad.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 16 inputs; tld_restate.py): the movie has the original's input 16 in front, every row matched",
   "archive_path": "dream-realm/dr.toad.st",
   "downloaded_name": "smtld_toad.savestate",
   "size": 1629617,
@@ -2967,7 +2967,7 @@
   "identical_to": "",
   "original_path": "archive/dream-realm/dr.toad.st",
   "rebased": true,
-  "rebased_sha256": "e5842f76c742994583a48378d51f4b4a06053616ac8c8097a80482991b7f0304"
+  "rebased_sha256": "e302584678e5a8c4b23222d7571da99d54db5e76b03de2de3d7d8fd54fe3429f"
  },
  {
   "row": 39,
@@ -3012,7 +3012,7 @@
   "link_id": "L61",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1535420794581155890/smtld_wc.6997.m64",
   "original_name": "smtld_wc.6997.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 34 inputs; tld_restate.py): the movie has the original's input 34 in front, every row matched",
   "archive_path": "cap-levels/wc.windy_towers.69_97.m64",
   "downloaded_name": "smtld_wc.6997.m64",
   "size": 10016,
@@ -3028,12 +3028,12 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/wc.windy_towers.69_97.m64",
   "rebased": true,
-  "rebased_sha256": "1d9ff37f0d340c6158ee95da1c44060a4942e27e52b85f6d1fd0769b1713d8ef",
+  "rebased_sha256": "323358628ea191247d6159270fb1ff6dbd7484d757e3da4f17dc7dcafbef7164",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 36, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 34 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 2248)",
   "rebase_sync": "plain: in sync for 2212 rows",
-  "rebased_inputs": 2213,
+  "rebased_inputs": 2214,
   "rebased_time": "69.97"
  },
  {
@@ -3049,7 +3049,7 @@
   "link_id": "L62",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1066816026085445722/smtld_wc.savestate",
   "original_name": "smtld_wc.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 34 inputs; tld_restate.py): the movie has the original's input 34 in front, every row matched",
   "archive_path": "cap-levels/wc.windy_towers.st",
   "downloaded_name": "smtld_wc.savestate",
   "size": 1650003,
@@ -3065,7 +3065,7 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/wc.windy_towers.st",
   "rebased": true,
-  "rebased_sha256": "931a17b29801a99bae99d518de4817ed0caff3b233e9648e577207a9d625d2d1"
+  "rebased_sha256": "a6a3a60fd1d089b7dd62bc745cfc00bd0d26a4da450f1eff15e18f3ca8ebe25f"
  },
  {
   "row": 42,
@@ -3154,13 +3154,13 @@
   "link_id": "C17",
   "original_url": null,
   "original_name": "vc.ghostly_puzzle.40_53.m64",
-  "result": "added by the user (Kieran), 2026-10-27 (placed in the local clone, built from the 44.23): -111 frames on the 44.23; plays from the course folder's vc.ghostly_puzzle.st; 40.53 in Mupen (2026-10-28: stars at samples 810 and 1217, 2432 VIs, no lag; ends on the input before WMOTR, the next level)",
+  "result": "added by the user (Kieran), 2026-10-27 (placed in the local clone, built from the 44.23): -111 frames on the 44.23; plays from the course folder's vc.ghostly_puzzle.st; 40.53 in Mupen (2026-10-28: stars at samples 810 and 1217, 2432 VIs, no lag; ends on the input before WMOTR, the next level); 2026-10-29: restated onto the state 1 frame before the level loads (the original after 23 inputs; tld_restate.py): the movie has the original's input 23 in front, every row matched",
   "archive_path": "cap-levels/vc.ghostly_puzzle.40_53.m64",
   "downloaded_name": "vc.ghostly_puzzle.40_53.m64",
-  "size": 6344,
-  "sha256": "d25374cf32e8ec77ba903de263c92d9222859efd878ae032e95c7ae7dc4994bf",
+  "size": 6348,
+  "sha256": "5298ad594500cbe7eaa96a40373b6f5c1f8b10d289659226e7b59e66cac5f25c",
   "m64_rerecords": 6558,
-  "m64_samples": 1330,
+  "m64_samples": 1331,
   "m64_trailing_words": 0,
   "st_compression": null,
   "st_unpacked_size": null,
@@ -3214,7 +3214,7 @@
   "link_id": "L64",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059142482396467251/smtld_vc.savestate",
   "original_name": "smtld_vc.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 23 inputs; tld_restate.py): the movie has the original's input 23 in front, every row matched",
   "archive_path": "cap-levels/vc.ghostly_puzzle.st",
   "downloaded_name": "smtld_vc.savestate",
   "size": 1635860,
@@ -3230,7 +3230,7 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/vc.ghostly_puzzle.st",
   "rebased": true,
-  "rebased_sha256": "c27b465852805b9f8224fb06934e9f9eaabc60d07aa9607d7f8d8ac388c15088"
+  "rebased_sha256": "96f0e62d02f7ff58849aa1fa34691d79ec90c824c92debaddbcc30ef0e1e1f61"
  },
  {
   "row": 42,
@@ -3275,7 +3275,7 @@
   "link_id": "L65",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1071506494928998470/mc.left.1813.m64",
   "original_name": "mc.left.1813.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 5 inputs; tld_restate.py): the movie has the original's input 5 in front, every row matched",
   "archive_path": "cap-levels/mc.sewers_left.18_13.m64",
   "downloaded_name": "mc.left.1813.m64",
   "size": 38928,
@@ -3291,12 +3291,12 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/mc.sewers_left.18_13.m64",
   "rebased": true,
-  "rebased_sha256": "23ddde21188ccd7ef3f351c32a8ca30c609db74361b3095af067db421aa7e90d",
+  "rebased_sha256": "9317707a726d60509e00f60a296d23aafb146bfd0b71728e16b95de5e2bb7ebe",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 7, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 5 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 664)",
   "rebase_sync": "plain: in sync for 657 rows",
-  "rebased_inputs": 658,
+  "rebased_inputs": 659,
   "rebased_time": "18.13"
  },
  {
@@ -3312,7 +3312,7 @@
   "link_id": "L66",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059183447698063440/mc.savestate",
   "original_name": "mc.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 5 inputs; tld_restate.py): the movie has the original's input 5 in front, every row matched",
   "archive_path": "cap-levels/mc.sewers_left.st",
   "downloaded_name": "mc.savestate",
   "size": 1640939,
@@ -3328,7 +3328,7 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/mc.sewers_left.st",
   "rebased": true,
-  "rebased_sha256": "21e6fe68649698c4addde8440830c25f848b60784b8279de9c7b7f21366e9ae7"
+  "rebased_sha256": "c74dfcb4034d2d0489f1f54242a965b2d2cb0e3fb75d557be05f0810e4fc6e0e"
  },
  {
   "row": 44,
@@ -3343,7 +3343,7 @@
   "link_id": "L67",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059413936459485214/mc.right.1813.m64",
   "original_name": "mc.right.1813.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 5 inputs; tld_restate.py): the movie has the original's input 5 in front, every row matched",
   "archive_path": "cap-levels/mc.sewers_right.18_13.m64",
   "downloaded_name": "mc.right.1813.m64",
   "size": 38928,
@@ -3359,12 +3359,12 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/mc.sewers_right.18_13.m64",
   "rebased": true,
-  "rebased_sha256": "3c40604295b54c675970c03de8219c826c29574ab154003749651835eed7959e",
+  "rebased_sha256": "2524c635beb70a25dc1fd86b2a929775fb8505a8e2f5a4356345c42278a233ba",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 7, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 5 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 664)",
   "rebase_sync": "plain: in sync for 657 rows",
-  "rebased_inputs": 658,
+  "rebased_inputs": 659,
   "rebased_time": "18.13"
  },
  {
@@ -3380,7 +3380,7 @@
   "link_id": "L68",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059413936811814922/mc.savestate",
   "original_name": "mc.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 5 inputs; tld_restate.py): the movie has the original's input 5 in front, every row matched",
   "archive_path": "cap-levels/mc.sewers_right.st",
   "downloaded_name": "mc.savestate",
   "size": 1649190,
@@ -3396,7 +3396,7 @@
   "identical_to": "",
   "original_path": "archive/cap-levels/mc.sewers_right.st",
   "rebased": true,
-  "rebased_sha256": "7cd638074b5d34ec261e42ce709962be0c15fa01423fb8596d6c44a233343721"
+  "rebased_sha256": "35f11442cc689a8107509fa58ca08745a7f3490f09cb9d6d4da15a62b790b7d9"
  },
  {
   "row": 46,
@@ -3509,7 +3509,7 @@
   "link_id": "L71",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1068185071238000721/smtld_cwt.8020.m64",
   "original_name": "smtld_cwt.8020.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 20 inputs; tld_restate.py): the movie has the original's input 20 in front, every row matched",
   "archive_path": "miscellaneous/cwt.reds.80_20.m64",
   "downloaded_name": "smtld_cwt.8020.m64",
   "size": 15836,
@@ -3525,12 +3525,12 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/cwt.reds.80_20.m64",
   "rebased": true,
-  "rebased_sha256": "cd6bdd9f571912ff066f6789ba6ebc91523323f63d4e48d45047676506221a58",
+  "rebased_sha256": "0d4eee595ef907fe0a96d52c8a1517b60766a071faf0f371aaca1604626c3fe7",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 22, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 20 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 2533)",
   "rebase_sync": "plain: in sync for 2511 rows",
-  "rebased_inputs": 2512,
+  "rebased_inputs": 2513,
   "rebased_time": "80.20"
  },
  {
@@ -3546,7 +3546,7 @@
   "link_id": "L72",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1068185071502233630/smtld_cwt.savestate",
   "original_name": "smtld_cwt.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 20 inputs; tld_restate.py): the movie has the original's input 20 in front, every row matched",
   "archive_path": "miscellaneous/cwt.reds.st",
   "downloaded_name": "smtld_cwt.savestate",
   "size": 1601113,
@@ -3562,7 +3562,7 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/cwt.reds.st",
   "rebased": true,
-  "rebased_sha256": "2754b63fb33a6a028496b04ba9413bf8cb7c6fd01a273f9cd73aba586fa92701"
+  "rebased_sha256": "9547c9c862e9bbde4c75785e98be714abe2885101fb8e92b146627010955434e"
  },
  {
   "row": 48,
@@ -3577,7 +3577,7 @@
   "link_id": "L73",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059834301568516196/smtld_goombas_lair.8800.m64",
   "original_name": "smtld_goombas_lair.8800.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 14 inputs; tld_restate.py): the movie has the original's input 14 in front, every row matched",
   "archive_path": "miscellaneous/gl.goombas_lair.88_00.m64",
   "downloaded_name": "smtld_goombas_lair.8800.m64",
   "size": 14820,
@@ -3593,12 +3593,12 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/gl.goombas_lair.88_00.m64",
   "rebased": true,
-  "rebased_sha256": "de5f73308b36d9c169531f79b270a7f6260282d872850896a3ad1551a986b52f",
+  "rebased_sha256": "dfdbca94cbd4d331ce380428f9e2766c3c87599f86f3919718d28324bfae9dca",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 16, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 14 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 2769)",
   "rebase_sync": "plain: in sync for 2753 rows",
-  "rebased_inputs": 2754,
+  "rebased_inputs": 2755,
   "rebased_time": "88.00"
  },
  {
@@ -3614,7 +3614,7 @@
   "link_id": "L74",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059834302029910056/smtld_goombas_lair.savestate",
   "original_name": "smtld_goombas_lair.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 14 inputs; tld_restate.py): the movie has the original's input 14 in front, every row matched",
   "archive_path": "miscellaneous/gl.goombas_lair.st",
   "downloaded_name": "smtld_goombas_lair.savestate",
   "size": 1612339,
@@ -3630,7 +3630,7 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/gl.goombas_lair.st",
   "rebased": true,
-  "rebased_sha256": "6d5cf4cfef6cac926214e058c65ff47c59a86a1b15546f9b4656440954f22c07"
+  "rebased_sha256": "caf75e1d1c9121f536252d9e761f2ba67c052832d3e150577953d3f76db87354"
  },
  {
   "row": 49,
@@ -3645,7 +3645,7 @@
   "link_id": "L75",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060538532252373102/ld_rr.10420.m64",
   "original_name": "ld_rr.10420.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 155 inputs; tld_restate.py): the movie has the original's input 155 in front, every row matched",
   "archive_path": "miscellaneous/rr.rainbow_road.104_20.m64",
   "downloaded_name": "ld_rr.10420.m64",
   "size": 27932,
@@ -3661,12 +3661,12 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/rr.rainbow_road.104_20.m64",
   "rebased": true,
-  "rebased_sha256": "df091e6b4ca1672f54d5e9a827243df7edf6095d80367cb0c3de9319d4adc7c6",
+  "rebased_sha256": "53a32ac4c01fa5cb3fab7b9e9583b64ca6e6aab386ad1564af08069cfdf84e97",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 157, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 155 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 3396)",
   "rebase_sync": "plain: in sync for 3239 rows",
-  "rebased_inputs": 3240,
+  "rebased_inputs": 3241,
   "rebased_time": "104.20"
  },
  {
@@ -3682,7 +3682,7 @@
   "link_id": "L76",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060538568952520804/ld_rr.savestate",
   "original_name": "ld_rr.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 155 inputs; tld_restate.py): the movie has the original's input 155 in front, every row matched",
   "archive_path": "miscellaneous/rr.rainbow_road.st",
   "downloaded_name": "ld_rr.savestate",
   "size": 1974274,
@@ -3698,7 +3698,7 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/rr.rainbow_road.st",
   "rebased": true,
-  "rebased_sha256": "f78ed661f7170d646b76e722607afd7c81290475b00bd0992ebb46f6ccf6bcb3"
+  "rebased_sha256": "254978c88197b90c43004066df0e01a3739a78403dc92dcc825f8021373e014f"
  },
  {
   "row": 49,
@@ -3780,13 +3780,13 @@
   "link_id": "C18",
   "original_url": null,
   "original_name": "ttc.tick_tock_chaos.38_33.m64",
-  "result": "added by the user (Kieran), 2026-10-26 (uploaded on GitHub): -53 frames on the 40.10; plays from the course folder's ttc.tick_tock_chaos.st; 38.33 in Mupen (2026-10-28: level-start, stars at samples 551 and 1151, 2300 VIs, no lag; ends on the input before the hub)",
+  "result": "added by the user (Kieran), 2026-10-26 (uploaded on GitHub): -53 frames on the 40.10; plays from the course folder's ttc.tick_tock_chaos.st; 38.33 in Mupen (2026-10-28: level-start, stars at samples 551 and 1151, 2300 VIs, no lag; ends on the input before the hub); 2026-10-29: restated onto the state 1 frame before the level loads (the original after 8 inputs; tld_restate.py): the movie has the original's input 8 in front, every row matched",
   "archive_path": "miscellaneous/ttc.tick_tock_chaos.38_33.m64",
   "downloaded_name": "ttc.tick_tock_chaos.38_33.m64",
-  "size": 6080,
-  "sha256": "77ce55d259a9bfaadcfc9fb76128bf30c72fc676415483098b7164009f4d0da0",
+  "size": 6084,
+  "sha256": "6aa9cc2df199d47276971640b23ef4a4be92c9e15dec099b2dd6722cd20daaac",
   "m64_rerecords": 5347,
-  "m64_samples": 1264,
+  "m64_samples": 1265,
   "m64_trailing_words": 0,
   "st_compression": null,
   "st_unpacked_size": null,
@@ -3810,7 +3810,7 @@
   "link_id": "L79",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1059877350227058778/smtld_ttc.savestate",
   "original_name": "smtld_ttc.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 8 inputs; tld_restate.py): the movie has the original's input 8 in front, every row matched",
   "archive_path": "miscellaneous/ttc.tick_tock_chaos.st",
   "downloaded_name": "smtld_ttc.savestate",
   "size": 1684153,
@@ -3826,7 +3826,7 @@
   "identical_to": "",
   "original_path": "archive/miscellaneous/ttc.tick_tock_chaos.st",
   "rebased": true,
-  "rebased_sha256": "e5d12a91b471e4c3eae944af16f46140dd08423c32d47873e44798ff16bf8d18"
+  "rebased_sha256": "9b63cb40433a670550be42b2a820d99bc9add0b39c3cc41a5984a6bfeb08df96"
  },
  {
   "row": 52,
@@ -3841,7 +3841,7 @@
   "link_id": "L80",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1529914905665343509/smtld_b1.secret.1337.m64",
   "original_name": "smtld_b1.secret.1337.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 10 inputs; tld_restate.py): the movie has the original's input 10 in front, every row matched",
   "archive_path": "bowser-levels/b1.ghost_house.13_37.m64",
   "downloaded_name": "smtld_b1.secret.1337.m64",
   "size": 3128,
@@ -3857,12 +3857,12 @@
   "identical_to": "",
   "original_path": "archive/bowser-levels/b1.ghost_house.13_37.m64",
   "rebased": true,
-  "rebased_sha256": "52e3d3f9f9a045ec838b7c0decb3466c48302709cb033ea0f223da15948d83af",
+  "rebased_sha256": "f817b9fd43864627453941f4e291e2105ce43e9385a17ba7359370d9306c3cfd",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 12, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 10 inputs)",
   "rebase_end": "the level never ended after the star dance: left uncut",
   "rebase_sync": "plain: in sync for 514 rows",
-  "rebased_inputs": 515,
+  "rebased_inputs": 516,
   "rebased_time": "13.37"
  },
  {
@@ -3878,7 +3878,7 @@
   "link_id": "L81",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1529914906105741513/smtld_b1.st",
   "original_name": "smtld_b1.st",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 10 inputs; tld_restate.py): the movie has the original's input 10 in front, every row matched",
   "archive_path": "bowser-levels/b1.ghost_house.st",
   "downloaded_name": "smtld_b1.st",
   "size": 1762998,
@@ -3894,7 +3894,7 @@
   "identical_to": "bowser-levels/b1.ghost_house_battle.st",
   "original_path": "archive/bowser-levels/b1.ghost_house.st",
   "rebased": true,
-  "rebased_sha256": "9b8e9bbe88d5096513b109c7c37cb73e6e1108afbb9135dcf4819943ffbe8f0c"
+  "rebased_sha256": "fd5fb64e225741324308cef4399b7a79a21a4af46045b11cfbc8daff803ca505"
  },
  {
   "row": 53,
@@ -4127,7 +4127,7 @@
   "link_id": "L87",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060195136455327814/smtld_b1.secret.2220.m64",
   "original_name": "smtld_b1.secret.2220.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 1465 inputs; tld_restate.py): the movie has the original's input 1465 in front, every row matched",
   "archive_path": "bowser-levels/b1.ghost_house_battle.22_20.m64",
   "downloaded_name": "smtld_b1.secret.2220.m64",
   "size": 13504,
@@ -4143,12 +4143,12 @@
   "identical_to": "",
   "original_path": "archive/bowser-levels/b1.ghost_house_battle.22_20.m64",
   "rebased": true,
-  "rebased_sha256": "59c1d6d3b2300ef66eaac5fc05139b91e4cd8a355a439ad87fe198c0210bc3bb",
+  "rebased_sha256": "b813f71282e198c05aef514dedee8e6111c81acd2c2a0554013e450c245664d5",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 1467, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 1465 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 2418)",
   "rebase_sync": "plain: in sync for 951 rows",
-  "rebased_inputs": 952,
+  "rebased_inputs": 953,
   "rebased_time": "27.93"
  },
  {
@@ -4164,7 +4164,7 @@
   "link_id": "L88",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060195137172557825/smtld_b1.savestate",
   "original_name": "smtld_b1.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 1465 inputs; tld_restate.py): the movie has the original's input 1465 in front, every row matched",
   "archive_path": "bowser-levels/b1.ghost_house_battle.st",
   "downloaded_name": "smtld_b1.savestate",
   "size": 1762998,
@@ -4180,7 +4180,7 @@
   "identical_to": "bowser-levels/b1.ghost_house.st",
   "original_path": "archive/bowser-levels/b1.ghost_house_battle.st",
   "rebased": true,
-  "rebased_sha256": "ad4767ca9d4cc04fe65cc58da837a7023e0e86f4bcd95a3ac4a593e2e2e7821d"
+  "rebased_sha256": "29efb97aa13cce27decd003abb93b1fd12f81f0e473fbca614277ec30c2f828f"
  },
  {
   "row": 56,
@@ -4195,7 +4195,7 @@
   "link_id": "L89",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060255544050462740/smtld_b2.secret.3010.m64",
   "original_name": "smtld_b2.secret.3010.m64",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 1465 inputs; tld_restate.py): the movie has the original's input 1465 in front, every row matched",
   "archive_path": "bowser-levels/b2.mountain_temple_battle.30_10.m64",
   "downloaded_name": "smtld_b2.secret.3010.m64",
   "size": 11256,
@@ -4211,12 +4211,12 @@
   "identical_to": "",
   "original_path": "archive/bowser-levels/b2.mountain_temple_battle.30_10.m64",
   "rebased": true,
-  "rebased_sha256": "a9ad3bc69b5f05a6d1aa6b31e145444175db2e6cbc96b09b9dcdcf9e8e8d021c",
+  "rebased_sha256": "af18bff66421396f3622020f16c6e9c4a9dd43d934d27f8a557be40ae7144403",
   "rebase_fix": "plain",
-  "rebase_start": "level first frame (old row 1467, new row 1)",
+  "rebase_start": "last frame before the level loads (the original after 1465 inputs)",
   "rebase_end": "cut before the next level's first frame (old row 2558)",
   "rebase_sync": "plain: in sync for 1091 rows",
-  "rebased_inputs": 1092,
+  "rebased_inputs": 1093,
   "rebased_time": "32.60"
  },
  {
@@ -4232,7 +4232,7 @@
   "link_id": "L90",
   "original_url": "https://cdn.discordapp.com/attachments/929006480156401754/1060255544348246127/smtld_b2.savestate",
   "original_name": "smtld_b2.savestate",
-  "result": "archived",
+  "result": "archived; 2026-10-29: restated onto the state 1 frame before the level loads (the original after 1465 inputs; tld_restate.py): the movie has the original's input 1465 in front, every row matched",
   "archive_path": "bowser-levels/b2.mountain_temple_battle.st",
   "downloaded_name": "smtld_b2.savestate",
   "size": 1658928,
@@ -4248,7 +4248,7 @@
   "identical_to": "bowser-levels/b2.mountain_temple.st",
   "original_path": "archive/bowser-levels/b2.mountain_temple_battle.st",
   "rebased": true,
-  "rebased_sha256": "3bdf557dc7cedc0b877eaaea94b4bea852107cbed4f6bdd2ab45422ae905d852"
+  "rebased_sha256": "6dd08eeac36c5db98cf6daa5edcaa3b66cfed29822bd81f0aae21ceaf482e5c3"
  },
  {
   "row": 57,
