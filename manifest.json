@@ -3481,8 +3481,8 @@
   "result": "archived; since 2026-10-29 the course folder's state is the original one advanced by 1 input (gzip, made with mupen_compat): the last frame before level 36 loads (level 31, ACT_DISAPPEARED, gGlobalTimer 1359), for the 24.03. The original state (archive/miscellaneous/mos.reds.st) is 2 frames before the load, the rebased state that left the repo was the level's first frame",
   "archive_path": "miscellaneous/mos.reds.st",
   "downloaded_name": "smtld_mos-reds.savestate",
-  "size": 1658556,
-  "sha256": "84c7f1247ce5b6e41551c7ef1e107b9bb4ba7f03f19057576f68b31fa65470d1",
+  "size": 1620343,
+  "sha256": "57a380cd6f46ad6c028250d8fc0a30757a2332902bcbaa259584ef287c8cd0c7",
   "m64_rerecords": null,
   "m64_samples": null,
   "m64_trailing_words": null,
@@ -3493,7 +3493,8 @@
   "sheet_seconds": "24.03",
   "identical_to": "",
   "original_path": "archive/miscellaneous/mos.reds.st",
-  "rebased": false
+  "rebased": true,
+  "rebased_sha256": "84c7f1247ce5b6e41551c7ef1e107b9bb4ba7f03f19057576f68b31fa65470d1"
  },
  {
   "row": 47,
