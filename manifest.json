@@ -4530,7 +4530,7 @@
   "link_id": "L80",
   "original_url": "",
   "original_name": "b1.ghost_house.13_00.11f_faster.m64",
-  "result": "2026-11-13: 13.00 (-22 VIs on the 13.37): a slide kick to the table, its rollout cancelled under the slab, a punch off the table leg's wall for the turn, the 12-press BLJ kept at -1841, the room turned the short way onto the 13.37's own line (the reflect on row 194, was 205), then the 13.37's ten wall kicks 11 rows sooner; the dance on row 391. Redux 13.00, 780 VIs; Mupen-verified, the sim equal on rows 37-390; plays from the standard state b1.ghost_house.st",
+  "result": "2026-11-13: 13.00 (-22 VIs on the 13.37): a slide kick to the table, its rollout cancelled under the slab, a punch off the table leg's wall for the turn, the 12-press BLJ (-1782.92, trimmed to -1611.62 on five landing frames), the room turned the short way onto the 13.37's own line (the reflect on row 194, was 205), then the 13.37's ten wall kicks 11 rows sooner; the dance on row 391. Redux 13.00, 780 VIs; Mupen-verified, the sim equal on rows 37-390; plays from the standard state b1.ghost_house.st",
   "archive_path": "bowser-levels/b1.ghost_house.13_00.m64",
   "downloaded_name": "b1.ghost_house.13_00.11f_faster.m64",
   "size": 3044,
