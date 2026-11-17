@@ -1,9 +1,9 @@
 # Castle and lobby movement
 
-ChouxZi3's movements between levels: from one star's exit (or an Exit Course) to the next level's warp. The "Castle
-Movement" tab of the sheet lists them in the same order. It also has open rows for the movements not TASed yet: power-on
-to Playful Palace, and a re-entry for every course the route enters more than once (Playful Palace, Gelato Beach,
-Bob-omb Temple, The White Abyss). Its Count column says how often each movement is used. Metal Cap Sewers needs no
+ChouxZi3's movements between levels: from one star's exit (or an Exit Course) to the next level's warp, and from
+power-on to the first course. The "Castle Movement" tab of the sheet lists them in the same order, with a re-entry for
+every course the route enters more than once (Playful Palace, Gelato Beach, Bob-omb Temple, The White Abyss; the first
+three are still open). Its Count column says how often each movement is used. Metal Cap Sewers needs no
 re-entry of its own: both cap stars exit to the Dream Realm's 0x90, so 08 (Vanishcap → Metal Cap) is also the way back
 into Metal Cap after its first star, and it counts 2.
 
@@ -16,14 +16,19 @@ into Metal Cap after its first star, and it counts 2.
   loads for the others. Every state is gzip and every pair plays in every Mupen version.
 - **Checked:** each movie was played from its `NN.st` in Mupen and matches the original run on every frame (level,
   action, action timer, position, warp).
+- **Two are cut from longer runs:** `00` from a power-on run that goes on into Playful Palace, and `re_wa` from a full
+  White Abyss run. All six of that run's re-entries are 137 frames, and `re_wa` is the first. `00` plays from power-on
+  (no state). Its first controllable frame is the hub's load frame, whose input already moves the file-load spawn.
 
 | # | Movement | Movie | Time | Frames | Real | Starts from | Ends: exit warp node → level |
 |---|---|---|---|---|---|---|---|
+| 00 | Power-on → Playful Palace | `00.poweron_to_pp.5_07.m64` | 5.07 | 152 | 5.38 | power-on; the hub's file-load spawn | hub door 0x02 → BOB (9), the act select |
 | 01 | Playful Palace → B1. In the Ghost House | `01.pp_to_b1.7_50.m64` | 7.50 | 225 | 7.50 | a Dream Realm star exit: hub node 0x04, the hub's centre | hub door 0x06 → BITDW (17), node 0x0A |
 | 02 | B1. In the Ghost House → Gelato Beach | `02.b1_to_gb.9_67.m64` | 9.67 | 290 | 9.95 | B1's star exit: BITDW node 0x7B | Exit Course → hub 0x8D, then hub pipe 0x07 → JRB (12), the act select |
 | 03 | Gelato Beach → Tick Tock Chaos | `03.gb_to_ttc.7_20.m64` | 7.20 | 216 | 7.20 | a Dream Realm star exit: hub 0x04 | hub pipe 0x88 → RR (15), node 0x0A |
 | 04 | Tick Tock Chaos → Bob-omb Temple | `04.ttc_to_bt.3_87.m64` | 3.87 | 116 | 3.87 | Tick Tock Chaos's star exit: hub 0x6A | hub pipe 0x05 → WF (24), the act select |
 | 05 | Bob-omb Temple → The White Abyss | `05.bt_to_wa.8_00.m64` | 8.00 | 240 | 8.00 | a Dream Realm star exit: hub 0x04 | hub door 0x08 → CCM (5), the act select |
+| re_wa | The White Abyss re-entry (used 6 times) | `re_wa.wa_reentry.4_57.m64` | 4.57 | 137 | 4.57 | The White Abyss's star exit: hub 0x4A | hub door 0x08 → CCM (5), the act select |
 | 06 | The White Abyss → Rainbow Road | `06.wa_to_rr.12_97.m64` | 12.97 | 389 | 12.97 | a Dream Realm star exit: hub 0x04 | hub warp 0x0D → hub node 0x0E, then the look-up warp 0xF2 → PSS (27), node 0x0A |
 | 07 | Rainbow Road → Vanishcap Ghostly Puzzle | `07.rr_to_vc.31_37.m64` | 31.37 | 941 | 32.73 | Rainbow Road's star exit: hub 0x1E | Dream Realm door 0x00 → VCUTM (18), node 0x0A |
 | 08 | Vanishcap Ghostly Puzzle → Metal Cap Sewers | `08.vc_to_mc.4_67.m64` | 4.67 | 140 | 4.67 | Vanishcap's star exit: Dream Realm 0x90 | Dream Realm door 0x01 → COTMC (28), node 0x0A |
