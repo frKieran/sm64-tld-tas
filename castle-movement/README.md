@@ -3,7 +3,9 @@
 ChouxZi3's movements between levels: from one star's exit (or an Exit Course) to the next level's warp. The "Castle
 Movement" tab of the sheet lists them in the same order. It also has open rows for the movements not TASed yet: power-on
 to Playful Palace, and a re-entry for every course the route enters more than once (Playful Palace, Gelato Beach,
-Bob-omb Temple, The White Abyss, Metal Cap Sewers).
+Bob-omb Temple, The White Abyss). Its Count column says how often each movement is used. Metal Cap Sewers needs no
+re-entry of its own: both cap stars exit to the Dream Realm's 0x90, so 08 (Vanishcap → Metal Cap) is also the way back
+into Metal Cap after its first star, and it counts 2.
 
 - **Time:** from the first controllable frame to the first frame of the warp action (the door walk, DISAPPEARED,
   TELEPORT_FADE_OUT, or the frame of an Exit Course / look-up / warp floor), in input frames / 30. **Real** is the
