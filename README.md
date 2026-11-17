@@ -8,3 +8,4 @@ Input files (`.m64`) and savestates (`.st`) for the individual-star TASes of **S
   read on 2026-10-19. Updated then onward.
 - **ROM:** Super Mario The Lost Dreams v1.2h (header name `SM THE LOST DREAMS`, CRC1 `FA5EE6EB`, savestate ROM MD5
   `8dc54ac604994d056d4a7cdaff393ba2`).
+- **Castle movement:** `castle-movement/` holds the movements between levels (star exit to the next level's warp), on the same boundaries as the course folders, so they append to the course movies; its README lists each one's start, exit warp node, destination and time. The sheet's "Castle Movement" tab links them.
