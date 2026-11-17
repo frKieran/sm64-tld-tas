@@ -30,7 +30,8 @@ Movement" tab of the sheet lists them in the same order.
 | 14 | Cyberwave Trial → B3. The Nightmare Realm - Battle | `14.cwt_to_b3battle.20_10.m64` | 20.10 | 603 | 20.72 | Cyberwave Trial's star exit: courtyard 0x1C | level 6 fading warp 0x45 → BOWSER_3 (34), node 0x0A |
 
 Movement 06 (The White Abyss → Rainbow Road) is unfinished, so it is in `wip/`: `wip/castle06.wa_to_rr.m64` with
-`wip/castle06.st` on the same boundary. It ends on the hub's warp 0x0D, toward the hub's node 0x0E.
+`wip/castle06.st` on the same boundary. It ends on the hub's warp 0x0D, toward the hub's node 0x0E. An unfinished variant of 04 is there too:
+`wip/castle04.ttc_to_bt.1.m64` with `wip/castle04.st`, which ends short of the Bob-omb Temple pipe.
 
 ## Notes
 
