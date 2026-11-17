@@ -1,7 +1,9 @@
 # Castle and lobby movement
 
 ChouxZi3's movements between levels: from one star's exit (or an Exit Course) to the next level's warp. The "Castle
-Movement" tab of the sheet lists them in the same order.
+Movement" tab of the sheet lists them in the same order. It also has open rows for the movements not TASed yet: power-on
+to Playful Palace, and a re-entry for every course the route enters more than once (Playful Palace, Gelato Beach,
+Bob-omb Temple, The White Abyss, Metal Cap Sewers).
 
 - **Time:** from the first controllable frame to the first frame of the warp action (the door walk, DISAPPEARED,
   TELEPORT_FADE_OUT, or the frame of an Exit Course / look-up / warp floor), in input frames / 30. **Real** is the
@@ -38,8 +40,10 @@ of the Bob-omb Temple pipe.
 - **01 and 02 come from one movie** with the B1 stage in between. That stage is not the published one; the published
   stage is in `bowser-levels/`.
 - **01, 03, 05 and 06 start from a Dream Realm star exit** (hub node 0x04, the hub's centre), with the save set to that
-  point of the route. A Playful Palace, Gelato Beach, Bob-omb Temple or White Abyss star exit lands at hub 0x1A, 0x3A, 0x2A or 0x4A
-  instead.
+  point of the route. Each main course's Dream Realm course (Course 1 to 4) is entered through that course's act
+  select, and its star exits to hub 0x04. So a course whose last star is its Dream Realm course hands over at the
+  hub's centre; the course's own stars exit beside its entrance (hub 0x1A, 0x2A, 0x3A, 0x4A), which is what the
+  re-entry rows start from.
 - **The routes through other levels:**
   - 07: the look-up warp into Rainbow Road, Exit Course back to the hub, through The White Abyss's warp 0x06 into
     the Dream Realm.
