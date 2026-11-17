@@ -38,7 +38,7 @@ into Metal Cap after its first star, and it counts 2.
 | 09 | Metal Cap Sewers → Wing Cap Windy Towers | `09.mc_to_wc.4_83.m64` | 4.83 | 145 | 4.83 | a Vanishcap star exit: Dream Realm 0x90, where Metal Cap's exit lands too | Dream Realm door 0x02 → TOTWC (29), node 0x0A |
 | 10 | The Dream Realm Toad → Mountain of Serenity | `10.toad_to_mos.5_27.m64` | 5.27 | 158 | 5.27 | the Toad star's no-exit dance | Dream Realm pipe 0x03 → TTM (36), node 0x0A |
 | 11 | B2. Into the Mountain Temple - Battle → B3. The Nightmare Realm | `11.b2battle_to_b3.19_37.m64` | 19.37 | 581 | 19.80 | B2's star exit: Mountain of Serenity 0x0E | level 6 door 0x0E → BITS (21), node 0x0A |
-| 12 | B3. The Nightmare Realm → Goombas Lair | `12.b3_to_gl.33_30.m64` | 33.30 | 999 | 34.52 | the B3 stage with Exit Course under way | courtyard pipe 0x02 → SA (20), node 0x0A |
+| 12 | B3. The Nightmare Realm → Goombas Lair | `12.b3_to_gl.33_23.m64` | 33.23 | 997 | 34.45 | the B3 stage with Exit Course under way | courtyard pipe 0x02 → SA (20), node 0x0A |
 | 13 | Goombas Lair → Cyberwave Trial | `13.gl_to_cwt.5_50.m64` | 5.50 | 165 | 5.50 | Goombas Lair's star exit: courtyard 0x1C | courtyard fading warp 0x45 → SSL (8), node 0x0A |
 | 14 | Cyberwave Trial → B3. The Nightmare Realm - Battle | `14.cwt_to_b3battle.20_10.m64` | 20.10 | 603 | 20.72 | Cyberwave Trial's star exit: courtyard 0x1C | level 6 fading warp 0x45 → BOWSER_3 (34), node 0x0A |
 
@@ -90,5 +90,8 @@ of the Bob-omb Temple pipe.
 - **12 is a join of two drafts:** the full movement to the courtyard, then a pipe BLJ there from the courtyard's pipe
   arrival, which is 193 frames faster than the full movement's own courtyard leg. A neutral input pads it during the
   final warp's fade to its boundary. Rerecords are the two drafts' together.
+  - The 33.23 is the 33.30 with the pipe BLJ re-timed for time, not speed: the tenth press a frame later, hovering
+    under the lip instead of rising, lands pinned on frame 913 instead of 915, and the same walk enters pipe 0x02 on
+    frame 998 instead of 1000. The 33.30 is in `archive/castle-movement/`, with a copy of `12.st` beside it.
 - **14 enters the B3 battle through level 6's fading warp**, not the B3 stage's pipe, which `bowser-levels/`'s battle
   state comes from.
