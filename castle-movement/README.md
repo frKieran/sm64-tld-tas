@@ -20,7 +20,7 @@ Movement" tab of the sheet lists them in the same order.
 | 03 | Gelato Beach → Tick Tock Chaos | `03.gb_to_ttc.7_20.m64` | 7.20 | 216 | 7.20 | a Dream Realm star exit: hub 0x04 | hub pipe 0x88 → RR (15), node 0x0A |
 | 04 | Tick Tock Chaos → Bob-omb Temple | `04.ttc_to_bt.3_87.m64` | 3.87 | 116 | 3.87 | Tick Tock Chaos's star exit: hub 0x6A | hub pipe 0x05 → WF (24), the act select |
 | 05 | Bob-omb Temple → The White Abyss | `05.bt_to_wa.8_00.m64` | 8.00 | 240 | 8.00 | a Dream Realm star exit: hub 0x04 | hub door 0x08 → CCM (5), the act select |
-| 06 | The White Abyss → Rainbow Road | `06.wa_to_rr.13_10.m64` | 13.10 | 393 | 13.10 | a Dream Realm star exit: hub 0x04 | hub warp 0x0D → hub node 0x0E, then the look-up warp 0xF2 → PSS (27), node 0x0A |
+| 06 | The White Abyss → Rainbow Road | `06.wa_to_rr.12_97.m64` | 12.97 | 389 | 12.97 | a Dream Realm star exit: hub 0x04 | hub warp 0x0D → hub node 0x0E, then the look-up warp 0xF2 → PSS (27), node 0x0A |
 | 07 | Rainbow Road → Vanishcap Ghostly Puzzle | `07.rr_to_vc.31_37.m64` | 31.37 | 941 | 32.73 | Rainbow Road's star exit: hub 0x1E | Dream Realm door 0x00 → VCUTM (18), node 0x0A |
 | 08 | Vanishcap Ghostly Puzzle → Metal Cap Sewers | `08.vc_to_mc.4_67.m64` | 4.67 | 140 | 4.67 | Vanishcap's star exit: Dream Realm 0x90 | Dream Realm door 0x01 → COTMC (28), node 0x0A |
 | 09 | Metal Cap Sewers → Wing Cap Windy Towers | `09.mc_to_wc.4_83.m64` | 4.83 | 145 | 4.83 | a Vanishcap star exit: Dream Realm 0x90, where Metal Cap's exit lands too | Dream Realm door 0x02 → TOTWC (29), node 0x0A |
@@ -62,6 +62,8 @@ of the Bob-omb Temple pipe.
     the star-count dialog (96 frames) and the movie desyncs.
   - Nothing else in the state changed, and the run matches the 2-star one on every frame until the warp fires.
   - Kieran finished the draft: ChouxZi3's first 430 inputs, then his.
+  - The 12.97 is Kieran's improvement of the 13.10 from frame 471: the look-up warp on frame 539 instead of 543.
+    The 13.10 is in `archive/castle-movement/`, with a copy of `06.st` beside it.
 - **12 is a join of two drafts:** the full movement to the courtyard, then a pipe BLJ there from the courtyard's pipe
   arrival, which is 193 frames faster than the full movement's own courtyard leg. A neutral input pads it during the
   final warp's fade to its boundary. Rerecords are the two drafts' together.
