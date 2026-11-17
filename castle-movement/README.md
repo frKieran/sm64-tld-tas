@@ -2,8 +2,8 @@
 
 ChouxZi3's movements between levels: from one star's exit (or an Exit Course) to the next level's warp, and from
 power-on to the first course. The "Castle Movement" tab of the sheet lists them in the same order, with a re-entry for
-every course the route enters more than once (Playful Palace, Gelato Beach, Bob-omb Temple, The White Abyss; the first
-three are still open). Its Count column says how often each movement is used. Metal Cap Sewers needs no
+every course the route enters more than once (Playful Palace, Gelato Beach, Bob-omb Temple and The White Abyss; the
+first three are Kieran's). Its Count column says how often each movement is used. Metal Cap Sewers needs no
 re-entry of its own: both cap stars exit to the Dream Realm's 0x90, so 08 (Vanishcap → Metal Cap) is also the way back
 into Metal Cap after its first star, and it counts 2.
 
@@ -23,10 +23,13 @@ into Metal Cap after its first star, and it counts 2.
 | # | Movement | Movie | Time | Frames | Real | Starts from | Ends: exit warp node → level |
 |---|---|---|---|---|---|---|---|
 | 00 | Power-on → Playful Palace | `00.poweron_to_pp.5_07.m64` | 5.07 | 152 | 5.38 | power-on; the hub's file-load spawn | hub door 0x02 → BOB (9), the act select |
+| re_pp | Playful Palace re-entry (used 4 times) | `re_pp.pp_reentry.0_73.m64` | 0.73 | 22 | 0.73 | Playful Palace's star exit: hub 0x1A | hub door 0x02 → BOB (9), the act select |
 | 01 | Playful Palace → B1. In the Ghost House | `01.pp_to_b1.7_50.m64` | 7.50 | 225 | 7.50 | a Dream Realm star exit: hub node 0x04, the hub's centre | hub door 0x06 → BITDW (17), node 0x0A |
 | 02 | B1. In the Ghost House → Gelato Beach | `02.b1_to_gb.9_67.m64` | 9.67 | 290 | 9.95 | B1's star exit: BITDW node 0x7B | Exit Course → hub 0x8D, then hub pipe 0x07 → JRB (12), the act select |
+| re_gb | Gelato Beach re-entry (used 6 times) | `re_gb.gb_reentry.0_63.m64` | 0.63 | 19 | 0.63 | Gelato Beach's star exit: hub 0x3A | hub pipe 0x07 → JRB (12), the act select |
 | 03 | Gelato Beach → Tick Tock Chaos | `03.gb_to_ttc.7_20.m64` | 7.20 | 216 | 7.20 | a Dream Realm star exit: hub 0x04 | hub pipe 0x88 → RR (15), node 0x0A |
 | 04 | Tick Tock Chaos → Bob-omb Temple | `04.ttc_to_bt.3_87.m64` | 3.87 | 116 | 3.87 | Tick Tock Chaos's star exit: hub 0x6A | hub pipe 0x05 → WF (24), the act select |
+| re_bt | Bob-omb Temple re-entry (used 5 times) | `re_bt.bt_reentry.0_97.m64` | 0.97 | 29 | 0.97 | Bob-omb Temple's star exit: hub 0x2A | hub pipe 0x05 → WF (24), the act select |
 | 05 | Bob-omb Temple → The White Abyss | `05.bt_to_wa.8_00.m64` | 8.00 | 240 | 8.00 | a Dream Realm star exit: hub 0x04 | hub door 0x08 → CCM (5), the act select |
 | re_wa | The White Abyss re-entry (used 6 times) | `re_wa.wa_reentry.4_57.m64` | 4.57 | 137 | 4.57 | The White Abyss's star exit: hub 0x4A | hub door 0x08 → CCM (5), the act select |
 | 06 | The White Abyss → Rainbow Road | `06.wa_to_rr.12_97.m64` | 12.97 | 389 | 12.97 | a Dream Realm star exit: hub 0x04 | hub warp 0x0D → hub node 0x0E, then the look-up warp 0xF2 → PSS (27), node 0x0A |
@@ -65,6 +68,13 @@ of the Bob-omb Temple pipe.
   pipe, with Kieran's exit (frames 124 to 282 of this movie). Its rerecords are counted on the Toad row.
 - **The first movement 10 was replaced:** ChouxZi3's Wing Cap → Mountain of Serenity is now in
   `archive/castle-movement/`. Up to the star it was the same run as the Toad file, and its exit was 9 frames slower.
+- **The three re-entries are Kieran's:** Playful Palace's and Gelato Beach's are optimised. Bob-omb Temple's is a
+  straight line whose move combinations are still to be tested. Their movies were converted from extended header
+  version 4 to version 1 so they open in every Mupen version; the inputs are unchanged.
+- **re_gb's state and inputs are edited.** Kieran's run was recorded with the 1-star text box after the save menu.
+  `re_gb.st` sets `prevNumStarsForDialog` to Mario's star count (0 to 1), so the box does not play, and the 82
+  inputs it took are cut. Every frame after the cut matches the original run 82 frames later, and nothing else in
+  the state changed.
 - **06's state has an edited save.** The look-up warp into Rainbow Road needs 30 stars, and it counts the save file
   in use (`gCurrSaveFileNum`): file B, which had 2 (file A in the same state has 50).
   - `06.st` gives file B 30: all seven stars of Playful Palace, Bob-omb Temple, Gelato Beach and The White Abyss,
