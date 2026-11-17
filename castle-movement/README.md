@@ -23,7 +23,7 @@ Movement" tab of the sheet lists them in the same order.
 | 07 | Rainbow Road → Vanishcap Ghostly Puzzle | `07.rr_to_vc.31_37.m64` | 31.37 | 941 | 32.73 | Rainbow Road's star exit: hub 0x1E | Dream Realm door 0x00 → VCUTM (18), node 0x0A |
 | 08 | Vanishcap Ghostly Puzzle → Metal Cap Sewers | `08.vc_to_mc.4_67.m64` | 4.67 | 140 | 4.67 | Vanishcap's star exit: Dream Realm 0x90 | Dream Realm door 0x01 → COTMC (28), node 0x0A |
 | 09 | Metal Cap Sewers → Wing Cap Windy Towers | `09.mc_to_wc.4_83.m64` | 4.83 | 145 | 4.83 | a Vanishcap star exit: Dream Realm 0x90, where Metal Cap's exit lands too | Dream Realm door 0x02 → TOTWC (29), node 0x0A |
-| 10 | Wing Cap Windy Towers → Mountain of Serenity | `10.wc_to_mos.24_83.m64` | 24.83 | 745 | 24.83 | a Vanishcap star exit: Dream Realm 0x90, where Wing Cap's exit lands too | Dream Realm pipe 0x03 → TTM (36), node 0x0A |
+| 10 | The Dream Realm Toad → Mountain of Serenity | `10.toad_to_mos.5_27.m64` | 5.27 | 158 | 5.27 | the Toad star's no-exit dance | Dream Realm pipe 0x03 → TTM (36), node 0x0A |
 | 11 | B2. Into the Mountain Temple - Battle → B3. The Nightmare Realm | `11.b2battle_to_b3.19_37.m64` | 19.37 | 581 | 19.80 | B2's star exit: Mountain of Serenity 0x0E | level 6 door 0x0E → BITS (21), node 0x0A |
 | 12 | B3. The Nightmare Realm → Goombas Lair | `12.b3_to_gl.33_30.m64` | 33.30 | 999 | 34.52 | the B3 stage with Exit Course under way | courtyard pipe 0x02 → SA (20), node 0x0A |
 | 13 | Goombas Lair → Cyberwave Trial | `13.gl_to_cwt.5_50.m64` | 5.50 | 165 | 5.50 | Goombas Lair's star exit: courtyard 0x1C | courtyard fading warp 0x45 → SSL (8), node 0x0A |
@@ -41,11 +41,17 @@ Movement 06 (The White Abyss → Rainbow Road) is unfinished, so it isn't here: 
 - **The routes through other levels:**
   - 07: the look-up warp into Rainbow Road, Exit Course back to the hub, through The White Abyss's warp 0x06 into
     the Dream Realm.
-  - 10: collects the Dream Realm's Toad star on the way.
   - 11 and 14: Exit Course to the hub, then the hub's key door 0x00 into level 6. 11 unlocks that door, which costs
     148 frames.
   - 12: The White Abyss's warp into the Dream Realm, then a fall through its floor: the death node 0xF1 leads to
     the courtyard's pipe 0x03.
+- **There is no Wing Cap → Toad movement:** the Toad star's file (`dream-realm/dr.toad.19_60.m64`) starts from a
+  Vanishcap star exit, which lands on the same Dream Realm node 0x90 as Wing Cap's. Its time runs to the star dance,
+  so a Wing Cap exit goes straight into the Toad star.
+- **Movement 10 is that file's tail:** from the first frame of the no-exit dance, where the star's time stops, to the
+  pipe, with Kieran's exit (frames 124 to 282 of this movie). Its rerecords are counted on the Toad row.
+- **The first movement 10 was replaced:** ChouxZi3's Wing Cap → Mountain of Serenity is now in
+  `archive/castle-movement/`. Up to the star it was the same run as the Toad file, and its exit was 9 frames slower.
 - **12 is a join of two drafts:** the full movement to the courtyard, then a pipe BLJ there from the courtyard's pipe
   arrival, which is 193 frames faster than the full movement's own courtyard leg. A neutral input pads it during the
   final warp's fade to its boundary. Rerecords are the two drafts' together.
