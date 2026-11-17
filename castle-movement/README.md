@@ -68,9 +68,11 @@ of the Bob-omb Temple pipe.
   pipe, with Kieran's exit (frames 124 to 282 of this movie). Its rerecords are counted on the Toad row.
 - **The first movement 10 was replaced:** ChouxZi3's Wing Cap → Mountain of Serenity is now in
   `archive/castle-movement/`. Up to the star it was the same run as the Toad file, and its exit was 9 frames slower.
-- **The three re-entries are Kieran's:** Playful Palace's and Gelato Beach's are optimised. Bob-omb Temple's is a
-  straight line whose move combinations are still to be tested. Their movies were converted from extended header
-  version 4 to version 1 so they open in every Mupen version; the inputs are unchanged.
+- **The three re-entries are Kieran's, all optimised.** Bob-omb Temple's straight line was checked against every
+  combination of its moves on the exact sim (the kick or walking starts, the landing frame, the double jump's A
+  frames, the dive's frame and stick, and the facing): 3.5 million lines, none under its 29 frames. The movies were
+  converted from extended header version 4 to version 1 so they open in every Mupen version; the inputs are
+  unchanged.
 - **re_gb's state and inputs are edited.** Kieran's run was recorded with the 1-star text box after the save menu.
   `re_gb.st` sets `prevNumStarsForDialog` to Mario's star count (0 to 1), so the box does not play, and the 82
   inputs it took are cut. Every frame after the cut matches the original run 82 frames later, and nothing else in
