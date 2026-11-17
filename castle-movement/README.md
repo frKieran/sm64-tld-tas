@@ -20,6 +20,7 @@ Movement" tab of the sheet lists them in the same order.
 | 03 | Gelato Beach → Tick Tock Chaos | `03.gb_to_ttc.7_20.m64` | 7.20 | 216 | 7.20 | a Dream Realm star exit: hub 0x04 | hub pipe 0x88 → RR (15), node 0x0A |
 | 04 | Tick Tock Chaos → Bob-omb Temple | `04.ttc_to_bt.3_87.m64` | 3.87 | 116 | 3.87 | Tick Tock Chaos's star exit: hub 0x6A | hub pipe 0x05 → WF (24), the act select |
 | 05 | Bob-omb Temple → The White Abyss | `05.bt_to_wa.8_00.m64` | 8.00 | 240 | 8.00 | a Dream Realm star exit: hub 0x04 | hub door 0x08 → CCM (5), the act select |
+| 06 | The White Abyss → Rainbow Road | `06.wa_to_rr.13_10.m64` | 13.10 | 393 | 13.10 | a Dream Realm star exit: hub 0x04 | hub warp 0x0D → hub node 0x0E, then the look-up warp 0xF2 → PSS (27), node 0x0A |
 | 07 | Rainbow Road → Vanishcap Ghostly Puzzle | `07.rr_to_vc.31_37.m64` | 31.37 | 941 | 32.73 | Rainbow Road's star exit: hub 0x1E | Dream Realm door 0x00 → VCUTM (18), node 0x0A |
 | 08 | Vanishcap Ghostly Puzzle → Metal Cap Sewers | `08.vc_to_mc.4_67.m64` | 4.67 | 140 | 4.67 | Vanishcap's star exit: Dream Realm 0x90 | Dream Realm door 0x01 → COTMC (28), node 0x0A |
 | 09 | Metal Cap Sewers → Wing Cap Windy Towers | `09.mc_to_wc.4_83.m64` | 4.83 | 145 | 4.83 | a Vanishcap star exit: Dream Realm 0x90, where Metal Cap's exit lands too | Dream Realm door 0x02 → TOTWC (29), node 0x0A |
@@ -29,16 +30,15 @@ Movement" tab of the sheet lists them in the same order.
 | 13 | Goombas Lair → Cyberwave Trial | `13.gl_to_cwt.5_50.m64` | 5.50 | 165 | 5.50 | Goombas Lair's star exit: courtyard 0x1C | courtyard fading warp 0x45 → SSL (8), node 0x0A |
 | 14 | Cyberwave Trial → B3. The Nightmare Realm - Battle | `14.cwt_to_b3battle.20_10.m64` | 20.10 | 603 | 20.72 | Cyberwave Trial's star exit: courtyard 0x1C | level 6 fading warp 0x45 → BOWSER_3 (34), node 0x0A |
 
-Movement 06 (The White Abyss → Rainbow Road) is unfinished, so it is in `wip/`: `wip/castle06.wa_to_rr.m64` with
-`wip/castle06.st` on the same boundary. It ends on the hub's warp 0x0D, toward the hub's node 0x0E. An unfinished variant of 04 is there too:
-`wip/castle04.ttc_to_bt.1.m64` with `wip/castle04.st`, which ends short of the Bob-omb Temple pipe.
+An unfinished variant of 04 is in `wip/`: `wip/castle04.ttc_to_bt.1.m64` with `wip/castle04.st`, which ends short
+of the Bob-omb Temple pipe.
 
 ## Notes
 
 - **01 and 02 come from one movie** with the B1 stage in between. That stage is not the published one; the published
   stage is in `bowser-levels/`.
-- **01, 03 and 05 start from a Dream Realm star exit** (hub node 0x04, the hub's centre), with the save set to that
-  point of the route. A Playful Palace, Gelato Beach or Bob-omb Temple star exit lands at hub 0x1A, 0x3A or 0x2A
+- **01, 03, 05 and 06 start from a Dream Realm star exit** (hub node 0x04, the hub's centre), with the save set to that
+  point of the route. A Playful Palace, Gelato Beach, Bob-omb Temple or White Abyss star exit lands at hub 0x1A, 0x3A, 0x2A or 0x4A
   instead.
 - **The routes through other levels:**
   - 07: the look-up warp into Rainbow Road, Exit Course back to the hub, through The White Abyss's warp 0x06 into
@@ -54,6 +54,14 @@ Movement 06 (The White Abyss → Rainbow Road) is unfinished, so it is in `wip/`
   pipe, with Kieran's exit (frames 124 to 282 of this movie). Its rerecords are counted on the Toad row.
 - **The first movement 10 was replaced:** ChouxZi3's Wing Cap → Mountain of Serenity is now in
   `archive/castle-movement/`. Up to the star it was the same run as the Toad file, and its exit was 9 frames slower.
+- **06's state has an edited save.** The look-up warp into Rainbow Road needs 30 stars, and it counts the save file
+  in use (`gCurrSaveFileNum`): file B, which had 2 (file A in the same state has 50).
+  - `06.st` gives file B 30: all seven stars of Playful Palace, Bob-omb Temple, Gelato Beach and The White Abyss,
+    one of Tick Tock Chaos, and the Dream Realm star it already had.
+  - Mario's star count, the HUD and `prevNumStarsForDialog` are set to 30. Without the last, the save menu plays
+    the star-count dialog (96 frames) and the movie desyncs.
+  - Nothing else in the state changed, and the run matches the 2-star one on every frame until the warp fires.
+  - Kieran finished the draft: ChouxZi3's first 430 inputs, then his.
 - **12 is a join of two drafts:** the full movement to the courtyard, then a pipe BLJ there from the courtyard's pipe
   arrival, which is 193 frames faster than the full movement's own courtyard leg. A neutral input pads it during the
   final warp's fade to its boundary. Rerecords are the two drafts' together.
